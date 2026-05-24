@@ -14,7 +14,7 @@ pub fn init_logger() -> WorkerGuard {
     let file = OpenOptions::new()
         .create(true)    // 文件不存在时创建
         .append(true)    // 追加模式
-        .open("logs/mini_redis.log")
+        .open("logs/websockets.log")
         .expect("Failed to open log file");
     
     // 创建非阻塞的文件写入器
