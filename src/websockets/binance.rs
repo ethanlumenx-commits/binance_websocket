@@ -7,24 +7,62 @@ use crate::models::trade::BinanceTrade;
 /// Binance websocket -> Trade(tx) -> channel -> Aggregator
 pub async fn binance_websocket(tx: tokio::sync::mpsc::Sender<BinanceTrade>) {
     let url = "wss://data-stream.binance.vision/ws/btcusdt@trade";
-    let (socket, response) = connect_async(url).await.unwrap();
-
-    info!("Connected status: {}", response.status());
-
-    let (_, mut read) = socket.split();
-    
-    while let Some(msg) = read.next().await {
-        match msg {
-            Ok(msg) => {
-                if msg.is_text() {
-                    println!("{}", msg.to_string());
-                    let trade: BinanceTrade = serde_json::from_str(&msg.to_string()).expect("Failed to parse JSON");
-                    if let Err(e) = tx.send(trade).await { error!("Error sending trade: {}", e); };
-                }
+    loop {
+        let (socket, response) = match connect_async(url).await {
+            Ok(res) => res,
+            Err(e) => {
+                error!("Error to connect: {}", e);
+                tokio::time::sleep(tokio::time::Duration::from_secs(3)).await;
+                continue;
             },
-            Err(e) => error!("Error: {}", e),
-        }
+        };
+
+        info!("Connected status: {}", response.status());
+        let (_, mut read) = socket.split();
+        while let Some(msg) = read.next().await {
+            // msg is err
+            let msg =match msg{
+                Ok(msg) => msg,
+                Err(e) => {
+                    error!("Error receiving message: {}", e);
+                    continue;
+                },
+            };
+
+            // msg is not text
+            if !msg.is_text() {
+                continue;
+            }
+
+            // failed to parse message
+            let text = match msg.to_text() {
+                Ok(text) => text,
+                Err(e) => {
+                    error!("Error converting message to text: {}", e);
+                    continue;
+                },
+            };
+
+            //failed to Trade
+            let trade: BinanceTrade = match serde_json::from_str(text) {
+                Ok(trade) => trade,
+                Err(e) => {
+                    error!("Error parsing JSON: {}", e);
+                    continue;
+                },
+            };
+            
+            // failed to send trade
+            if let Err(e) = tx.send(trade).await { 
+                error!("Error sending trade: {}, you must to restart the program and channel", e); 
+                break;
+            };
+
+        };
+        error!("Connection closed,sleep for 3 seconds");
+        tokio::time::sleep(tokio::time::Duration::from_secs(3)).await;
     }
+
 }
 
 #[tokio::test]
