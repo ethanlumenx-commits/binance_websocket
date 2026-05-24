@@ -4,11 +4,8 @@ use tracing::{info, error};
 
 use crate::models::trade::BinanceTrade;
 
-use crate::logger;
-
-
-async fn binance_websocket(tx: tokio::sync::mpsc::Sender<BinanceTrade>) {
-    let _guard = logger::init_logger();
+/// Binance websocket -> Trade(tx) -> channel -> Aggregator
+pub async fn binance_websocket(tx: tokio::sync::mpsc::Sender<BinanceTrade>) {
     let url = "wss://data-stream.binance.vision/ws/btcusdt@trade";
     let (socket, response) = connect_async(url).await.unwrap();
 
