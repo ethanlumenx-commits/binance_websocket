@@ -2,11 +2,13 @@ use tokio_tungstenite::{connect_async};
 use futures::{StreamExt};
 use tracing::{info, error};
 
-use crate::models::trade::BinanceTrade;
+use crate::models::trade::{ BinanceStreamTrade};
 
 /// Binance websocket -> Trade(tx) -> channel -> Aggregator
-pub async fn binance_websocket(tx: tokio::sync::mpsc::Sender<BinanceTrade>) {
-    let url = "wss://data-stream.binance.vision/ws/btcusdt@trade";
+pub async fn binance_websocket(tx: tokio::sync::mpsc::Sender<BinanceStreamTrade>) {
+    // let url = "wss://data-stream.binance.vision/ws/btcusdt@trade";
+    let url =
+    "wss://data-stream.binance.vision/stream?streams=btcusdt@trade/ethusdt@trade/bnbusdt@trade";
     loop {
         let (socket, response) = match connect_async(url).await {
             Ok(res) => res,
@@ -18,6 +20,7 @@ pub async fn binance_websocket(tx: tokio::sync::mpsc::Sender<BinanceTrade>) {
         };
 
         info!("Connected status: {}", response.status());
+
         let (_, mut read) = socket.split();
         while let Some(msg) = read.next().await {
             // msg is err
@@ -44,16 +47,17 @@ pub async fn binance_websocket(tx: tokio::sync::mpsc::Sender<BinanceTrade>) {
             };
 
             //failed to Trade
-            let trade: BinanceTrade = match serde_json::from_str(text) {
+            let streamtrade: BinanceStreamTrade = match serde_json::from_str::<BinanceStreamTrade>(text) {
                 Ok(trade) => trade,
                 Err(e) => {
                     error!("Error parsing JSON: {}", e);
+                    error!("parsing JSON: {}", text);
                     continue;
                 },
             };
             
             // failed to send trade
-            if let Err(e) = tx.send(trade).await { 
+            if let Err(e) = tx.send(streamtrade).await { 
                 error!("Error sending trade: {}, you must to restart the program and channel", e); 
                 break;
             };
@@ -67,5 +71,14 @@ pub async fn binance_websocket(tx: tokio::sync::mpsc::Sender<BinanceTrade>) {
 
 #[tokio::test]
 async fn binance_websocket_test() {
-    binance_websocket(tokio::sync::mpsc::channel(32).0).await;
+    use crate::logger;
+    let _guard = logger::init_logger();
+    let (tx, mut rx) = tokio::sync::mpsc::channel(32);
+    tokio::spawn(async move {
+        while let Some(trade) = rx.recv().await {
+            info!("recv trade: {:?}", trade);
+        }
+    });
+
+    binance_websocket(tx).await;
 }

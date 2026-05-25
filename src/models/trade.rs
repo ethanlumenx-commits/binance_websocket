@@ -1,5 +1,10 @@
 use serde::Deserialize;
 use rust_decimal::Decimal;
+#[derive(Debug, Deserialize)]
+pub struct BinanceStreamTrade {
+    pub stream: String,
+    pub data: BinanceTrade,
+}
 
 #[derive(Debug, Deserialize)]
 pub struct BinanceTrade {
