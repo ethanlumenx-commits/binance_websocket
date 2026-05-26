@@ -1,5 +1,10 @@
 use serde::Deserialize;
 use rust_decimal::Decimal;
+
+pub trait ReturnSymbol {
+    fn return_symbol(&self) -> &str;
+}
+
 #[derive(Debug, Deserialize)]
 pub struct BinanceStreamTrade {
     pub stream: String,
@@ -36,4 +41,10 @@ pub struct BinanceTrade {
 
     #[serde(rename = "M")]
     pub ignore: bool,  
+}
+
+impl ReturnSymbol for BinanceStreamTrade {
+    fn return_symbol(&self) -> &str {
+        &self.stream
+    }
 }

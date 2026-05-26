@@ -5,13 +5,13 @@ use serde::Deserialize;
 
 
 /// Binance websocket -> Trade(tx) -> channel -> Aggregator
-pub async fn binance_websocket<T>(tx: tokio::sync::mpsc::Sender<T>)
+pub async fn binance_websocket<T>(tx: tokio::sync::mpsc::Sender<T>, symbols: Vec<String>)
  where T: for<'de> Deserialize<'de> + Send + Sync + 'static {
     // let url = "wss://data-stream.binance.vision/ws/btcusdt@trade";
     let url =
-    "wss://data-stream.binance.vision/stream?streams=btcusdt@trade/ethusdt@trade/bnbusdt@trade";
+        format!("wss://data-stream.binance.vision/stream?streams={}", symbols.join("/"));
     loop {
-        let (socket, response) = match connect_async(url).await {
+        let (socket, response) = match connect_async(&url).await {
             Ok(res) => res,
             Err(e) => {
                 error!("Error to connect: {}", e);
@@ -82,5 +82,5 @@ async fn binance_websocket_test() {
         }
     });
 
-    binance_websocket::<BinanceStreamTrade>(tx).await;
+    binance_websocket::<BinanceStreamTrade>(tx, vec!["btcusdt@trade".to_string()]).await;
 }
