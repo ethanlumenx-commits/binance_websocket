@@ -1,11 +1,12 @@
 use tokio_tungstenite::{connect_async};
 use futures::{StreamExt};
 use tracing::{info, error};
+use serde::Deserialize;
 
-use crate::models::trade::{ BinanceStreamTrade};
 
 /// Binance websocket -> Trade(tx) -> channel -> Aggregator
-pub async fn binance_websocket(tx: tokio::sync::mpsc::Sender<BinanceStreamTrade>) {
+pub async fn binance_websocket<T>(tx: tokio::sync::mpsc::Sender<T>)
+ where T: for<'de> Deserialize<'de> + Send + Sync + 'static {
     // let url = "wss://data-stream.binance.vision/ws/btcusdt@trade";
     let url =
     "wss://data-stream.binance.vision/stream?streams=btcusdt@trade/ethusdt@trade/bnbusdt@trade";
@@ -47,7 +48,7 @@ pub async fn binance_websocket(tx: tokio::sync::mpsc::Sender<BinanceStreamTrade>
             };
 
             //failed to Trade
-            let streamtrade: BinanceStreamTrade = match serde_json::from_str::<BinanceStreamTrade>(text) {
+            let streamtrade: T = match serde_json::from_str::<T>(text) {
                 Ok(trade) => trade,
                 Err(e) => {
                     error!("Error parsing JSON: {}", e);
@@ -73,6 +74,7 @@ pub async fn binance_websocket(tx: tokio::sync::mpsc::Sender<BinanceStreamTrade>
 async fn binance_websocket_test() {
     use crate::logger;
     let _guard = logger::init_logger();
+    use crate::models::trade::BinanceStreamTrade;
     let (tx, mut rx) = tokio::sync::mpsc::channel(32);
     tokio::spawn(async move {
         while let Some(trade) = rx.recv().await {
@@ -80,5 +82,5 @@ async fn binance_websocket_test() {
         }
     });
 
-    binance_websocket(tx).await;
+    binance_websocket::<BinanceStreamTrade>(tx).await;
 }
