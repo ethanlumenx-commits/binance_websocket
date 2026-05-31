@@ -1,8 +1,22 @@
 use serde::Deserialize;
 use rust_decimal::Decimal;
 
-pub trait ReturnSymbol {
+/// 交易数据提取 Trait
+pub trait TradeDataExtractor {
+    /// 返回交易对符号
     fn return_symbol(&self) -> &str;
+    
+    /// 获取价格
+    fn get_price(&self) -> Decimal;
+    
+    /// 获取数量
+    fn get_quantity(&self) -> Decimal;
+    
+    /// 是否为买方做市商（卖方主动）
+    fn is_buyer_maker(&self) -> bool;
+    
+    /// 获取交易时间
+    fn get_trade_time(&self) -> u64;
 }
 
 #[derive(Debug, Deserialize)]
@@ -43,8 +57,24 @@ pub struct BinanceTrade {
     pub ignore: bool,  
 }
 
-impl ReturnSymbol for BinanceStreamTrade {
+impl TradeDataExtractor for BinanceStreamTrade {
     fn return_symbol(&self) -> &str {
         &self.stream
+    }
+    
+    fn get_price(&self) -> Decimal {
+        self.data.price
+    }
+    
+    fn get_quantity(&self) -> Decimal {
+        self.data.quantity
+    }
+    
+    fn is_buyer_maker(&self) -> bool {
+        self.data.is_buyer_market_maker
+    }
+    
+    fn get_trade_time(&self) -> u64 {
+        self.data.trade_time
     }
 }
