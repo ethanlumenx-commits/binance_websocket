@@ -18,11 +18,10 @@ pub async fn aggregator_worker_with_indicators<T>(
     for symbol in symbols {
         let (work_tx, work_rx) = tokio::sync::mpsc::channel(config.websocket.channel_capacity);
         
-        let order_flow_config = config.order_flow.clone();
         let symbol_clone = symbol.clone();
         
         tokio::spawn(async move {
-            run_binance_worker(work_rx, symbol_clone, order_flow_config).await;
+            run_binance_worker(work_rx, symbol_clone).await;
         });
         
         works_hash.insert(symbol.clone(), work_tx);

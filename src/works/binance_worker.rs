@@ -3,13 +3,12 @@ use tracing::{info, error};
 use std::fmt::Debug;
 use std::time::Duration;
 
-use crate::strategies::order_flow::OrderFlowAnalyzer;
-use crate::config::OrderFlowConfig;
+use crate::strategies::order_flow::OrderFlowStats;
 use crate::models::trade::TradeDataExtractor;
 
-/// 交易统计数据
 #[derive(Debug)]
 pub struct TradeStats {
+    /// 交易笔数
     pub trade_count: u64,
 }
 
@@ -27,20 +26,18 @@ impl TradeStats {
     }
 }
 
-/// Binance 交易对工作器
 pub struct BinanceWorker {
     symbol: String, 
-    order_flow: OrderFlowAnalyzer, // 订单流分析
     stats: TradeStats, // 每秒交易统计
+    order_flow: OrderFlowStats,
 }
 
 impl BinanceWorker {
-    /// 创建工作器实例
-    pub fn new(symbol: String, order_flow_config: &OrderFlowConfig) -> Self {
+    pub fn new(symbol: String) -> Self {
         Self {
             symbol,
-            order_flow: OrderFlowAnalyzer::new(order_flow_config.large_trade_threshold_usdt),
             stats: TradeStats::new(),
+            order_flow: OrderFlowStats::new(),
         }
     }
     
@@ -48,7 +45,6 @@ impl BinanceWorker {
     pub fn process_trade<T>(&mut self, trade: &T) where T: TradeDataExtractor {
         self.stats.increment();
         
-        // 更新订单流分析
         self.order_flow.update(
             trade.get_price(),
             trade.get_quantity(),
@@ -58,20 +54,22 @@ impl BinanceWorker {
 
     /// 处理时间窗口tick
     pub fn handle_tick(&mut self) {
-        let flow_stats = self.order_flow.get_and_reset();
         
         info!(
-            "{} | Trades/sec: {} | Buy/Sell: {}/{} | AvgSize: {} | LargeTrades: {} | BuyRatio: {:.1}%",
+            "{} | 每秒交易次数: {} | 买/卖单数: {}/{} | 买/卖数量: {:.2}/{:.2} | 平均大小: {:.3} | 大交易: {} | 买占比: {:.1}% | 卖占比: {:.1}%",
             self.symbol,
-            self.stats.trade_count,
-            flow_stats.buy_count,
-            flow_stats.sell_count,
-            flow_stats.avg_trade_size,
-            flow_stats.large_trade_count,
-            flow_stats.buy_ratio().unwrap_or(rust_decimal::Decimal::ZERO)
+            self.order_flow.buy_count + self.order_flow.sell_count,
+            self.order_flow.buy_count,
+            self.order_flow.sell_count,
+            self.order_flow.buy_volume,
+            self.order_flow.sell_volume,
+            self.order_flow.avg_trade_size,
+            self.order_flow.large_trade_count,
+            self.order_flow.buy_ratio,
+            self.order_flow.sell_ratio,
         );
         
-        self.stats.reset();
+        self.order_flow.reset();
     }
 }
 
@@ -79,9 +77,8 @@ impl BinanceWorker {
 pub async fn run_binance_worker<T>(
     mut work_rx: tokio::sync::mpsc::Receiver<T>,
     symbol: String,
-    order_flow_config: OrderFlowConfig,
 ) where T: Debug + Send + Sync + TradeDataExtractor + 'static {  
-    let mut worker = BinanceWorker::new(symbol.clone(), &order_flow_config);
+    let mut worker = BinanceWorker::new(symbol.clone());
     
     let mut interval = interval(Duration::from_secs(1));
     

@@ -4,7 +4,6 @@ use serde::Deserialize;
 #[derive(Debug, Clone, Deserialize)]
 pub struct AppConfig {
     pub websocket: WebSocketConfig,
-    pub order_flow: OrderFlowConfig,
     pub logging: LoggingConfig,
 }
 
@@ -26,19 +25,6 @@ impl Default for WebSocketConfig {
     }
 }
 
-/// 订单流分析配置
-#[derive(Debug, Clone, Deserialize)]
-pub struct OrderFlowConfig {
-    pub large_trade_threshold_usdt: f64,  // 大单阈值（USDT）
-}
-
-impl Default for OrderFlowConfig {
-    fn default() -> Self {
-        Self {
-            large_trade_threshold_usdt: 10000.0,
-        }
-    }
-}
 
 /// 日志配置
 #[derive(Debug, Clone, Deserialize)]
@@ -60,7 +46,6 @@ impl Default for AppConfig {
     fn default() -> Self {
         Self {
             websocket: WebSocketConfig::default(),
-            order_flow: OrderFlowConfig::default(),
             logging: LoggingConfig::default(),
         }
     }
