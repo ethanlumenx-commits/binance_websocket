@@ -5,6 +5,7 @@ use serde::Deserialize;
 pub struct AppConfig {
     pub websocket: WebSocketConfig,
     pub logging: LoggingConfig,
+    pub database: DatabaseConfig,
 }
 
 /// WebSocket 配置
@@ -25,6 +26,19 @@ impl Default for WebSocketConfig {
     }
 }
 
+/// 数据库配置
+#[derive(Debug, Clone, Deserialize)]
+pub struct DatabaseConfig {
+    pub url: String,
+}
+
+impl Default for DatabaseConfig {
+    fn default() -> Self {
+        Self {
+            url: "postgres://postgres:amo@localhost:5432/postgres".to_string(),
+        }
+    }
+}
 
 /// 日志配置
 #[derive(Debug, Clone, Deserialize)]
@@ -47,6 +61,7 @@ impl Default for AppConfig {
         Self {
             websocket: WebSocketConfig::default(),
             logging: LoggingConfig::default(),
+            database: DatabaseConfig::default(),
         }
     }
 }

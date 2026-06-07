@@ -1,4 +1,11 @@
 use rust_decimal::Decimal;
+use crate::db::trade_stats::NewTradeStats;
+use chrono::Utc;
+
+pub trait OrderFlowStatsTrait {
+    fn to_trade_stats(&self) -> NewTradeStats;
+}
+
 /// calculate order flow statistics
 #[derive(Debug,Clone)]
 pub struct OrderFlowStats {
@@ -59,5 +66,24 @@ impl OrderFlowStats {
         let current_stats = self.clone();
         self.reset();
         current_stats
+    }
+}
+
+impl OrderFlowStatsTrait for OrderFlowStats {
+    fn to_trade_stats(&self) -> NewTradeStats {
+        NewTradeStats {
+            symbol: "symbol".to_string(),
+            stat_time: Utc::now(),
+            trade_count: (self.buy_count + self.sell_count) as i32,
+            buy_count: self.buy_count as i32,
+            sell_count: self.sell_count as i32,
+            buy_volume: self.buy_volume,
+            sell_volume: self.sell_volume,
+            avg_trade_size: self.avg_trade_size,
+            large_trade_count: self.large_trade_count as i32,
+            buy_ratio: self.buy_ratio,
+            sell_ratio: self.sell_ratio,
+            
+        }
     }
 }

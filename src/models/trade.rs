@@ -1,6 +1,8 @@
 use serde::Deserialize;
 use rust_decimal::Decimal;
 
+
+
 /// 交易数据提取 Trait
 pub trait TradeDataExtractor {
     /// 返回交易对符号
@@ -17,6 +19,7 @@ pub trait TradeDataExtractor {
     
     /// 获取交易时间
     fn get_trade_time(&self) -> u64;
+
 }
 
 #[derive(Debug, Deserialize)]

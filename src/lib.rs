@@ -4,3 +4,7 @@ pub mod models;
 pub mod works;
 pub mod strategies;
 pub mod config;
+pub mod db;
+pub mod repo;
+pub mod server;
+pub mod routes;

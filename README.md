@@ -20,7 +20,7 @@
 - 为每个交易对创建独立的工作协程（worker）
 - 通过 channel 进行模块间通信，实现解耦
 
-### 3. **订单流分析** ⭐ 核心功能
+### 3. **订单流分析** 
 - **买卖方向统计**: 主动买入 vs 主动卖出比例
   - `is_buyer_maker = false`: 买方主动（以卖一价成交）→ 买盘强劲
   - `is_buyer_maker = true`: 卖方主动（以买一价成交）→ 卖盘强劲
@@ -31,18 +31,24 @@
   - < 50%: 卖方强势
 - **实时输出**: 每秒输出详细的订单流统计数据
 
-### 4. **完善的日志系统**
+### 4. **HTTP API 接口** 
+- 基于 Axum 的 RESTful API
+- 查询历史交易统计数据
+- 支持按交易对过滤和分页查询
+- 健康检查端点
+
+### 5. **完善的日志系统**
 - 使用 `tracing` 框架记录运行日志
 - 同时输出到控制台和日志文件（`logs/websockets.log`）
 - 支持通过 `RUST_LOG` 环境变量配置日志级别
 - 日志文件采用追加模式，保留历史记录
 
-### 5. **配置管理系统**
-- 统一的配置结构 `AppConfig`，避免硬编码
-- 支持 WebSocket、订单流分析、日志等多个维度的配置
-- 大单阈值可灵活调整
+### 6. **PostgreSQL 数据存储**
+- 使用 SQLx 进行数据库操作
+- 每秒自动保存交易统计数据
+- 支持历史数据查询和分析
 
-### 6. **工程化代码质量**
+### 7. **工程化代码质量**
 - ✅ 零编译器警告
 - ✅ 无魔法数字（所有常量都有语义化名称）
 - ✅ 无代码重复（遵循 DRY 原则）
@@ -54,10 +60,16 @@
 ### 核心框架
 - **异步运行时**: [Tokio](https://tokio.rs/) - 完整的异步运行时支持
 - **WebSocket 客户端**: [tokio-tungstenite](https://github.com/snapview/tokio-tungstenite) - 异步 WebSocket 实现
+- **HTTP 服务器**: [Axum](https://github.com/tokio-rs/axum) - Ergonomic and modular web framework
 - **序列化**: [serde](https://serde.rs/) + [serde_json](https://github.com/serde-rs/json) - JSON 数据处理
+
+### 数据库
+- **SQLx**: [sqlx](https://github.com/launchbadge/sqlx) - 异步 SQL 工具箱，编译时查询检查
+- **PostgreSQL**: 关系型数据库存储
 
 ### 数据处理
 - **高精度小数**: [rust_decimal](https://github.com/paupino/rust-decimal) - 精确的价格和数量计算
+- **时间处理**: [chrono](https://github.com/chronotope/chrono) - 日期和时间库
 
 ### 工程化工具
 - **日志系统**: [tracing](https://github.com/tokio-rs/tracing) + [tracing-subscriber](https://docs.rs/tracing-subscriber) - 结构化日志
@@ -70,8 +82,8 @@ binance_websocket/
 ├── src/
 │   ├── main.rs              # 程序入口，初始化并启动各模块
 │   ├── lib.rs               # 库模块声明
+│   ├── routes.rs            # HTTP 路由（Axum）
 │   ├── config.rs            # 配置管理系统
-│   ├── errors.rs            # 统一错误处理
 │   ├── logger.rs            # 日志系统初始化
 │   ├── models/
 │   │   ├── mod.rs           # 模型模块导出
@@ -83,9 +95,18 @@ binance_websocket/
 │   │   ├── mod.rs           # 工作模块导出
 │   │   ├── aggregator.rs    # 数据分发器（泛型）
 │   │   └── binance_worker.rs # 交易对工作器（泛型 + 订单流分析）
-│   └── strategies/
-│       ├── mod.rs           # 策略模块导出
-│       └── order_flow.rs    # 订单流分析器（核心）
+│   ├── strategies/
+│   │   ├── mod.rs           # 策略模块导出
+│   │   └── order_flow.rs    # 订单流分析器（核心）
+│   ├── db/
+│   │   ├── mod.rs           # 数据库模块导出
+│   │   └── trade_stats.rs   # 交易统计数据模型
+│   ├── repo/
+│   │   ├── mod.rs           # 数据访问层导出
+│   │   └── insert_trade_stats.rs # 数据库操作
+│   └── server/
+│       ├── mod.rs           # 业务逻辑导出
+│       └── trade_stats_server.rs # 交易统计服务
 ├── logs/
 │   └── websockets.log       # 日志文件
 ├── Cargo.toml               # 项目依赖配置
@@ -98,11 +119,20 @@ binance_websocket/
 
 - Rust 1.75+ (edition 2024)
 - Cargo 包管理器
+- PostgreSQL 12+
 
 ### 安装依赖
 
 ```bash
 cargo build
+```
+
+### 配置数据库
+
+确保 PostgreSQL 已启动，并修改 `.env` 文件：
+
+```env
+DATABASE_URL=postgres://postgres:xxx@localhost:5432/xxxxxx
 ```
 
 ### 运行程序
@@ -113,6 +143,51 @@ cargo run
 
 # 自定义日志级别
 RUST_LOG=debug cargo run
+```
+
+### 访问 API
+
+程序启动后，HTTP API 将在 `http://localhost:3000` 上运行。
+
+**健康检查：**
+```bash
+curl http://localhost:3000/health
+```
+
+响应：
+```json
+{
+  "status": "ok"
+}
+```
+
+**获取交易统计：**
+```bash
+curl http://localhost:3000/trade-stats
+```
+
+响应：
+```json
+{
+  "data": [
+    {
+      "id": 1,
+      "symbol": "btcusdt@trade",
+      "stat_time": "2026-06-05T14:59:22.480111Z",
+      "trade_count": 159,
+      "buy_count": 0,
+      "sell_count": 159,
+      "buy_volume": "0.00",
+      "sell_volume": "0.11",
+      "avg_trade_size": "0.000",
+      "large_trade_count": 0,
+      "buy_ratio": "0.0",
+      "sell_ratio": "100.0",
+      "created_at": "2026-06-05T14:59:22.480111Z"
+    }
+  ]
+}
+```
 ```
 
 ### 配置交易对
@@ -129,16 +204,6 @@ let symbols = vec![
 
 支持的 stream 类型：
 - `<symbol>@trade` - 实时成交数据
-
-### 配置大单阈值
-
-在 `src/config.rs` 中修改 `OrderFlowConfig`：
-
-```rust
-pub struct OrderFlowConfig {
-    pub large_trade_threshold_usdt: f64,  // 默认 10000.0
-}
-```
 
 ## 架构设计
 

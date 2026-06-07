@@ -595,3 +595,936 @@
 2026-06-03T05:42:16.354511Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
 2026-06-03T05:42:16.354735Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 15 | 买/卖单数: 2/13 | 买卖数量: 1.30/0.10 | 平均大小: 0.094 | 大交易: 0 | 买占比: 92.2% | 卖占比: 7.7%
 2026-06-03T05:42:16.354929Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 10 | 买/卖单数: 0/10 | 买卖数量: 0.00/1.75 | 平均大小: 0.175 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:54:03.600830Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-05T14:54:03.601009Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-05T14:54:03.601331Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-05T14:54:04.026389Z  INFO binance_websocket::websockets::binance: Connected status: 101 Switching Protocols
+2026-06-05T14:54:04.595240Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 13 | 买/卖单数: 13/0 | 买/卖数量: 0.52/0.00 | 平均大小: 0.040 | 大交易: 1 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:54:04.595446Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 161 | 买/卖单数: 161/0 | 买/卖数量: 4.64/0.00 | 平均大小: 0.028 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:54:04.595619Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 24 | 买/卖单数: 20/4 | 买/卖数量: 3.45/2.80 | 平均大小: 0.260 | 大交易: 0 | 买占比: 55.2% | 卖占比: 44.7%
+2026-06-05T14:54:05.591478Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 2 | 买/卖单数: 0/2 | 买/卖数量: 0.00/1.01 | 平均大小: 0.505 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:54:05.591832Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 215 | 买/卖单数: 204/11 | 买/卖数量: 1.19/0.00 | 平均大小: 0.005 | 大交易: 1 | 买占比: 99.3% | 卖占比: 0.6%
+2026-06-05T14:54:05.592081Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 76 | 买/卖单数: 72/4 | 买/卖数量: 22.01/0.39 | 平均大小: 0.294 | 大交易: 1 | 买占比: 98.2% | 卖占比: 1.7%
+2026-06-05T14:54:06.596354Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 16 | 买/卖单数: 5/11 | 买/卖数量: 0.06/0.61 | 平均大小: 0.042 | 大交易: 0 | 买占比: 8.8% | 卖占比: 91.1%
+2026-06-05T14:54:06.596783Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 277 | 买/卖单数: 197/80 | 买/卖数量: 8.36/14.76 | 平均大小: 0.083 | 大交易: 0 | 买占比: 36.1% | 卖占比: 63.8%
+2026-06-05T14:54:06.596997Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 284 | 买/卖单数: 222/62 | 买/卖数量: 0.47/0.20 | 平均大小: 0.002 | 大交易: 0 | 买占比: 70.3% | 卖占比: 29.6%
+2026-06-05T14:54:07.594662Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 130 | 买/卖单数: 0/130 | 买/卖数量: 0.00/0.14 | 平均大小: 0.001 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:54:07.595482Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 17 | 买/卖单数: 1/16 | 买/卖数量: 0.06/0.39 | 平均大小: 0.026 | 大交易: 0 | 买占比: 13.4% | 卖占比: 86.5%
+2026-06-05T14:54:07.596101Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 111 | 买/卖单数: 13/98 | 买/卖数量: 5.44/16.02 | 平均大小: 0.193 | 大交易: 1 | 买占比: 25.3% | 卖占比: 74.6%
+2026-06-05T14:54:08.605230Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 353 | 买/卖单数: 256/97 | 买/卖数量: 27.41/6.44 | 平均大小: 0.095 | 大交易: 1 | 买占比: 80.9% | 卖占比: 19.0%
+2026-06-05T14:54:08.610059Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 314 | 买/卖单数: 259/55 | 买/卖数量: 0.35/0.02 | 平均大小: 0.001 | 大交易: 0 | 买占比: 93.5% | 卖占比: 6.4%
+2026-06-05T14:54:08.610763Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 2 | 买/卖单数: 2/0 | 买/卖数量: 1.11/0.00 | 平均大小: 0.557 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:54:09.600430Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 48 | 买/卖单数: 43/5 | 买/卖数量: 3.86/3.55 | 平均大小: 0.154 | 大交易: 0 | 买占比: 52.1% | 卖占比: 47.8%
+2026-06-05T14:54:09.601446Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 426 | 买/卖单数: 414/12 | 买/卖数量: 12.22/7.25 | 平均大小: 0.045 | 大交易: 0 | 买占比: 62.7% | 卖占比: 37.2%
+2026-06-05T14:54:09.602200Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 384 | 买/卖单数: 367/17 | 买/卖数量: 1.40/0.16 | 平均大小: 0.004 | 大交易: 0 | 买占比: 89.2% | 卖占比: 10.7%
+2026-06-05T14:54:10.592049Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 131 | 买/卖单数: 0/131 | 买/卖数量: 0.00/0.19 | 平均大小: 0.001 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:54:10.592427Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 6 | 买/卖单数: 6/0 | 买/卖数量: 0.05/0.00 | 平均大小: 0.009 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:54:10.592631Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 118 | 买/卖单数: 2/116 | 买/卖数量: 0.64/6.95 | 平均大小: 0.064 | 大交易: 0 | 买占比: 8.4% | 卖占比: 91.5%
+2026-06-05T14:54:11.591248Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 3 | 买/卖单数: 1/2 | 买/卖数量: 0.02/0.38 | 平均大小: 0.137 | 大交易: 0 | 买占比: 5.3% | 卖占比: 94.6%
+2026-06-05T14:54:11.591533Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 117 | 买/卖单数: 3/114 | 买/卖数量: 0.46/0.50 | 平均大小: 0.008 | 大交易: 2 | 买占比: 47.6% | 卖占比: 52.3%
+2026-06-05T14:54:11.591923Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 125 | 买/卖单数: 5/120 | 买/卖数量: 6.82/5.91 | 平均大小: 0.101 | 大交易: 0 | 买占比: 53.5% | 卖占比: 46.4%
+2026-06-05T14:54:12.601403Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 2 | 买/卖单数: 0/2 | 买/卖数量: 0.00/0.09 | 平均大小: 0.049 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:54:12.601852Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 89 | 买/卖单数: 4/85 | 买/卖数量: 1.27/16.47 | 平均大小: 0.199 | 大交易: 0 | 买占比: 7.2% | 卖占比: 92.7%
+2026-06-05T14:54:12.602148Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 81 | 买/卖单数: 0/81 | 买/卖数量: 0.00/0.21 | 平均大小: 0.002 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:54:13.596938Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 1 | 买/卖单数: 0/1 | 买/卖数量: 0.00/0.01 | 平均大小: 0.017 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:54:13.597201Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 161 | 买/卖单数: 154/7 | 买/卖数量: 0.25/0.21 | 平均大小: 0.002 | 大交易: 0 | 买占比: 53.9% | 卖占比: 46.0%
+2026-06-05T14:54:13.597507Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 134 | 买/卖单数: 129/5 | 买/卖数量: 4.05/1.20 | 平均大小: 0.039 | 大交易: 0 | 买占比: 77.0% | 卖占比: 22.9%
+2026-06-05T14:54:14.604299Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 9 | 买/卖单数: 6/3 | 买/卖数量: 0.05/3.10 | 平均大小: 0.351 | 大交易: 0 | 买占比: 1.7% | 卖占比: 98.2%
+2026-06-05T14:54:14.605124Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 8 | 买/卖单数: 4/4 | 买/卖数量: 0.24/0.04 | 平均大小: 0.036 | 大交易: 1 | 买占比: 84.4% | 卖占比: 15.5%
+2026-06-05T14:54:14.605886Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 18 | 买/卖单数: 18/0 | 买/卖数量: 11.33/0.00 | 平均大小: 0.629 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:54:15.597618Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 9 | 买/卖单数: 0/9 | 买/卖数量: 0.00/0.05 | 平均大小: 0.005 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:54:15.598855Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 3 | 买/卖单数: 0/3 | 买/卖数量: 0.00/2.18 | 平均大小: 0.728 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:54:15.599885Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 23 | 买/卖单数: 10/13 | 买/卖数量: 7.43/1.51 | 平均大小: 0.389 | 大交易: 0 | 买占比: 83.0% | 卖占比: 16.9%
+2026-06-05T14:54:16.607704Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 23 | 买/卖单数: 18/5 | 买/卖数量: 0.11/0.03 | 平均大小: 0.006 | 大交易: 0 | 买占比: 75.5% | 卖占比: 24.4%
+2026-06-05T14:54:16.608597Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 243 | 买/卖单数: 150/93 | 买/卖数量: 17.79/7.65 | 平均大小: 0.104 | 大交易: 1 | 买占比: 69.9% | 卖占比: 30.0%
+2026-06-05T14:54:16.609367Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 14 | 买/卖单数: 12/2 | 买/卖数量: 1.20/0.09 | 平均大小: 0.092 | 大交易: 0 | 买占比: 92.6% | 卖占比: 7.3%
+2026-06-05T14:54:17.602656Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 12 | 买/卖单数: 12/0 | 买/卖数量: 0.12/0.00 | 平均大小: 0.010 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:54:17.602914Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 50 | 买/卖单数: 17/33 | 买/卖数量: 9.09/8.87 | 平均大小: 0.359 | 大交易: 1 | 买占比: 50.6% | 卖占比: 49.3%
+2026-06-05T14:54:17.603153Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 45 | 买/卖单数: 37/8 | 买/卖数量: 0.32/0.00 | 平均大小: 0.007 | 大交易: 1 | 买占比: 99.7% | 卖占比: 0.2%
+2026-06-05T14:54:18.595896Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 341 | 买/卖单数: 0/341 | 买/卖数量: 0.00/0.71 | 平均大小: 0.002 | 大交易: 2 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:54:18.596122Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 20 | 买/卖单数: 1/19 | 买/卖数量: 0.03/4.76 | 平均大小: 0.239 | 大交易: 0 | 买占比: 0.6% | 卖占比: 99.3%
+2026-06-05T14:54:18.596321Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 304 | 买/卖单数: 1/303 | 买/卖数量: 0.63/10.55 | 平均大小: 0.036 | 大交易: 0 | 买占比: 5.6% | 卖占比: 94.3%
+2026-06-05T14:54:19.605906Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 35 | 买/卖单数: 5/30 | 买/卖数量: 3.50/0.32 | 平均大小: 0.109 | 大交易: 0 | 买占比: 91.6% | 卖占比: 8.3%
+2026-06-05T14:54:19.606244Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 237 | 买/卖单数: 53/184 | 买/卖数量: 0.16/0.76 | 平均大小: 0.003 | 大交易: 1 | 买占比: 18.0% | 卖占比: 81.9%
+2026-06-05T14:54:19.606602Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 160 | 买/卖单数: 12/148 | 买/卖数量: 1.25/3.71 | 平均大小: 0.031 | 大交易: 0 | 买占比: 25.2% | 卖占比: 74.7%
+2026-06-05T14:54:20.601921Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 204 | 买/卖单数: 204/0 | 买/卖数量: 11.42/0.00 | 平均大小: 0.056 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:54:20.602190Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 4 | 买/卖单数: 3/1 | 买/卖数量: 0.04/0.05 | 平均大小: 0.023 | 大交易: 0 | 买占比: 44.6% | 卖占比: 55.3%
+2026-06-05T14:54:20.602354Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 154 | 买/卖单数: 146/8 | 买/卖数量: 0.46/0.01 | 平均大小: 0.003 | 大交易: 0 | 买占比: 96.7% | 卖占比: 3.2%
+2026-06-05T14:54:21.595656Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 256 | 买/卖单数: 246/10 | 买/卖数量: 0.92/0.24 | 平均大小: 0.004 | 大交易: 3 | 买占比: 79.1% | 卖占比: 20.8%
+2026-06-05T14:54:21.596247Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 36 | 买/卖单数: 36/0 | 买/卖数量: 0.47/0.00 | 平均大小: 0.013 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:54:21.596753Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 222 | 买/卖单数: 221/1 | 买/卖数量: 25.71/0.14 | 平均大小: 0.116 | 大交易: 2 | 买占比: 99.4% | 卖占比: 0.5%
+2026-06-05T14:57:16.091057Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-05T14:57:16.091318Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-05T14:57:16.091580Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-05T14:57:16.564290Z  INFO binance_websocket::websockets::binance: Connected status: 101 Switching Protocols
+2026-06-05T14:57:17.086545Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-05T14:57:17.086842Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 16 | 买/卖单数: 10/6 | 买/卖数量: 0.63/0.04 | 平均大小: 0.042 | 大交易: 0 | 买占比: 94.0% | 卖占比: 5.9%
+2026-06-05T14:57:17.087292Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 8 | 买/卖单数: 6/2 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 43.5% | 卖占比: 56.4%
+2026-06-05T14:57:18.101932Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 173 | 买/卖单数: 5/168 | 买/卖数量: 0.02/0.14 | 平均大小: 0.000 | 大交易: 0 | 买占比: 13.8% | 卖占比: 86.1%
+2026-06-05T14:57:18.102627Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 16 | 买/卖单数: 0/16 | 买/卖数量: 0.00/0.73 | 平均大小: 0.045 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:57:18.103685Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 186 | 买/卖单数: 15/171 | 买/卖数量: 0.64/2.15 | 平均大小: 0.015 | 大交易: 0 | 买占比: 23.0% | 卖占比: 76.9%
+2026-06-05T14:57:19.101122Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 214 | 买/卖单数: 39/175 | 买/卖数量: 26.23/32.63 | 平均大小: 0.275 | 大交易: 0 | 买占比: 44.5% | 卖占比: 55.4%
+2026-06-05T14:57:19.102498Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 501 | 买/卖单数: 4/497 | 买/卖数量: 0.24/0.84 | 平均大小: 0.002 | 大交易: 0 | 买占比: 22.6% | 卖占比: 77.3%
+2026-06-05T14:57:19.102795Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 438 | 买/卖单数: 20/418 | 买/卖数量: 2.91/6.19 | 平均大小: 0.020 | 大交易: 0 | 买占比: 32.0% | 卖占比: 67.9%
+2026-06-05T14:57:20.097136Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 83 | 买/卖单数: 78/5 | 买/卖数量: 5.79/0.02 | 平均大小: 0.070 | 大交易: 0 | 买占比: 99.5% | 卖占比: 0.4%
+2026-06-05T14:57:20.097626Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 27 | 买/卖单数: 15/12 | 买/卖数量: 17.40/3.71 | 平均大小: 0.782 | 大交易: 0 | 买占比: 82.4% | 卖占比: 17.5%
+2026-06-05T14:57:20.098054Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 3 | 买/卖单数: 0/3 | 买/卖数量: 0.00/0.00 | 平均大小: 0.001 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:57:21.095160Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-05T14:57:21.095638Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 200 | 买/卖单数: 87/113 | 买/卖数量: 12.88/7.21 | 平均大小: 0.100 | 大交易: 1 | 买占比: 64.1% | 卖占比: 35.8%
+2026-06-05T14:57:21.096031Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 16 | 买/卖单数: 12/4 | 买/卖数量: 0.09/0.01 | 平均大小: 0.006 | 大交易: 0 | 买占比: 83.4% | 卖占比: 16.5%
+2026-06-05T14:57:22.094189Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 142 | 买/卖单数: 139/3 | 买/卖数量: 0.02/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 75.0% | 卖占比: 24.9%
+2026-06-05T14:57:22.094649Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 1 | 买/卖单数: 1/0 | 买/卖数量: 0.07/0.00 | 平均大小: 0.074 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:57:22.095006Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 174 | 买/卖单数: 157/17 | 买/卖数量: 2.84/1.57 | 平均大小: 0.025 | 大交易: 0 | 买占比: 64.4% | 卖占比: 35.5%
+2026-06-05T14:57:23.090458Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 39 | 买/卖单数: 11/28 | 买/卖数量: 2.03/1.29 | 平均大小: 0.085 | 大交易: 0 | 买占比: 61.0% | 卖占比: 38.9%
+2026-06-05T14:57:23.091690Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 12 | 买/卖单数: 10/2 | 买/卖数量: 0.08/0.00 | 平均大小: 0.007 | 大交易: 0 | 买占比: 89.5% | 卖占比: 10.4%
+2026-06-05T14:57:23.092748Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 6 | 买/卖单数: 0/6 | 买/卖数量: 0.00/0.07 | 平均大小: 0.012 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:57:24.087949Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 188 | 买/卖单数: 59/129 | 买/卖数量: 0.20/9.27 | 平均大小: 0.050 | 大交易: 1 | 买占比: 2.1% | 卖占比: 97.8%
+2026-06-05T14:57:24.088343Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 57 | 买/卖单数: 11/46 | 买/卖数量: 9.37/0.41 | 平均大小: 0.171 | 大交易: 0 | 买占比: 95.7% | 卖占比: 4.2%
+2026-06-05T14:57:24.088749Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 157 | 买/卖单数: 1/156 | 买/卖数量: 0.00/0.14 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.5% | 卖占比: 99.4%
+2026-06-05T14:57:25.094285Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 211 | 买/卖单数: 0/211 | 买/卖数量: 0.00/0.20 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:57:25.094679Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 6 | 买/卖单数: 6/0 | 买/卖数量: 2.83/0.00 | 平均大小: 0.472 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:57:25.095000Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 56 | 买/卖单数: 10/46 | 买/卖数量: 2.22/1.26 | 平均大小: 0.062 | 大交易: 0 | 买占比: 63.6% | 卖占比: 36.3%
+2026-06-05T14:57:26.094181Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 2 | 买/卖单数: 0/2 | 买/卖数量: 0.00/0.56 | 平均大小: 0.283 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:57:26.095053Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 20 | 买/卖单数: 10/10 | 买/卖数量: 1.72/0.53 | 平均大小: 0.113 | 大交易: 0 | 买占比: 76.1% | 卖占比: 23.8%
+2026-06-05T14:57:26.095689Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 5 | 买/卖单数: 0/5 | 买/卖数量: 0.00/0.02 | 平均大小: 0.004 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:57:27.088663Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-05T14:57:27.092510Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 28 | 买/卖单数: 8/20 | 买/卖数量: 0.02/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 86.5% | 卖占比: 13.4%
+2026-06-05T14:57:27.093834Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 188 | 买/卖单数: 149/39 | 买/卖数量: 15.36/0.31 | 平均大小: 0.083 | 大交易: 0 | 买占比: 98.0% | 卖占比: 1.9%
+2026-06-05T14:57:28.096236Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 301 | 买/卖单数: 0/301 | 买/卖数量: 0.00/0.17 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:57:28.096533Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 56 | 买/卖单数: 17/39 | 买/卖数量: 11.49/1.10 | 平均大小: 0.225 | 大交易: 0 | 买占比: 91.2% | 卖占比: 8.7%
+2026-06-05T14:57:28.096986Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 193 | 买/卖单数: 4/189 | 买/卖数量: 1.28/6.40 | 平均大小: 0.039 | 大交易: 0 | 买占比: 16.7% | 卖占比: 83.2%
+2026-06-05T14:57:29.088133Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 21 | 买/卖单数: 20/1 | 买/卖数量: 5.78/0.07 | 平均大小: 0.278 | 大交易: 0 | 买占比: 98.8% | 卖占比: 1.1%
+2026-06-05T14:57:29.088473Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 240 | 买/卖单数: 215/25 | 买/卖数量: 0.17/0.27 | 平均大小: 0.001 | 大交易: 0 | 买占比: 38.4% | 卖占比: 61.5%
+2026-06-05T14:57:29.088752Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 400 | 买/卖单数: 226/174 | 买/卖数量: 32.04/28.17 | 平均大小: 0.150 | 大交易: 1 | 买占比: 53.2% | 卖占比: 46.7%
+2026-06-05T14:57:30.097073Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 2 | 买/卖单数: 1/1 | 买/卖数量: 0.00/0.00 | 平均大小: 0.002 | 大交易: 0 | 买占比: 91.7% | 卖占比: 8.2%
+2026-06-05T14:57:30.097277Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 28 | 买/卖单数: 11/17 | 买/卖数量: 0.83/41.92 | 平均大小: 1.527 | 大交易: 4 | 买占比: 1.9% | 卖占比: 98.0%
+2026-06-05T14:57:30.097601Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 41 | 买/卖单数: 38/3 | 买/卖数量: 2.76/2.94 | 平均大小: 0.139 | 大交易: 0 | 买占比: 48.4% | 卖占比: 51.5%
+2026-06-05T14:57:31.188012Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 47 | 买/卖单数: 12/35 | 买/卖数量: 1.22/13.76 | 平均大小: 0.318 | 大交易: 1 | 买占比: 8.1% | 卖占比: 91.8%
+2026-06-05T14:57:31.188865Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 12 | 买/卖单数: 0/12 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:57:31.189568Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 75 | 买/卖单数: 0/75 | 买/卖数量: 0.00/0.66 | 平均大小: 0.008 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:57:32.086727Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 83 | 买/卖单数: 0/83 | 买/卖数量: 0.00/0.15 | 平均大小: 0.001 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:57:32.087940Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 254 | 买/卖单数: 14/240 | 买/卖数量: 7.19/92.82 | 平均大小: 0.393 | 大交易: 0 | 买占比: 7.1% | 卖占比: 92.8%
+2026-06-05T14:57:32.088809Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 66 | 买/卖单数: 42/24 | 买/卖数量: 6.13/4.51 | 平均大小: 0.161 | 大交易: 0 | 买占比: 57.5% | 卖占比: 42.4%
+2026-06-05T14:57:33.096704Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 20 | 买/卖单数: 20/0 | 买/卖数量: 0.17/0.00 | 平均大小: 0.008 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:57:33.096949Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 6 | 买/卖单数: 0/6 | 买/卖数量: 0.00/0.10 | 平均大小: 0.016 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:57:33.097288Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 23 | 买/卖单数: 19/4 | 买/卖数量: 2.87/1.11 | 平均大小: 0.173 | 大交易: 0 | 买占比: 71.9% | 卖占比: 28.0%
+2026-06-05T14:57:34.090017Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-05T14:57:34.090377Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 8 | 买/卖单数: 7/1 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 61.8% | 卖占比: 38.1%
+2026-06-05T14:57:34.090788Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 11 | 买/卖单数: 1/10 | 买/卖数量: 0.00/0.11 | 平均大小: 0.010 | 大交易: 0 | 买占比: 4.1% | 卖占比: 95.8%
+2026-06-05T14:57:35.100956Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 141 | 买/卖单数: 0/141 | 买/卖数量: 0.00/0.81 | 平均大小: 0.005 | 大交易: 1 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:57:35.101274Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 85 | 买/卖单数: 28/57 | 买/卖数量: 12.17/6.65 | 平均大小: 0.221 | 大交易: 0 | 买占比: 64.6% | 卖占比: 35.3%
+2026-06-05T14:57:35.101521Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 35 | 买/卖单数: 11/24 | 买/卖数量: 1.24/5.96 | 平均大小: 0.205 | 大交易: 0 | 买占比: 17.2% | 卖占比: 82.7%
+2026-06-05T14:57:36.098123Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 41 | 买/卖单数: 2/39 | 买/卖数量: 0.08/0.00 | 平均大小: 0.002 | 大交易: 0 | 买占比: 93.5% | 卖占比: 6.4%
+2026-06-05T14:57:36.100248Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 34 | 买/卖单数: 26/8 | 买/卖数量: 8.16/1.24 | 平均大小: 0.276 | 大交易: 0 | 买占比: 86.7% | 卖占比: 13.2%
+2026-06-05T14:57:36.101677Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 18 | 买/卖单数: 7/11 | 买/卖数量: 1.76/0.80 | 平均大小: 0.142 | 大交易: 0 | 买占比: 68.5% | 卖占比: 31.4%
+2026-06-05T14:57:37.089694Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 25 | 买/卖单数: 0/25 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:57:37.089997Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 82 | 买/卖单数: 68/14 | 买/卖数量: 0.98/3.28 | 平均大小: 0.052 | 大交易: 0 | 买占比: 23.1% | 卖占比: 76.8%
+2026-06-05T14:57:37.090399Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 20 | 买/卖单数: 9/11 | 买/卖数量: 11.07/0.09 | 平均大小: 0.558 | 大交易: 0 | 买占比: 99.1% | 卖占比: 0.8%
+2026-06-05T14:57:38.099027Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 82 | 买/卖单数: 3/79 | 买/卖数量: 0.66/0.70 | 平均大小: 0.016 | 大交易: 0 | 买占比: 48.3% | 卖占比: 51.6%
+2026-06-05T14:57:38.099841Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 421 | 买/卖单数: 1/420 | 买/卖数量: 0.00/1.02 | 平均大小: 0.002 | 大交易: 1 | 买占比: 0.3% | 卖占比: 99.6%
+2026-06-05T14:57:38.100279Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 47 | 买/卖单数: 28/19 | 买/卖数量: 15.09/0.16 | 平均大小: 0.324 | 大交易: 0 | 买占比: 98.9% | 卖占比: 1.0%
+2026-06-05T14:57:39.097158Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 26 | 买/卖单数: 8/18 | 买/卖数量: 1.33/6.29 | 平均大小: 0.293 | 大交易: 0 | 买占比: 17.5% | 卖占比: 82.4%
+2026-06-05T14:57:39.098068Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 98 | 买/卖单数: 21/77 | 买/卖数量: 1.90/2.16 | 平均大小: 0.041 | 大交易: 0 | 买占比: 46.7% | 卖占比: 53.2%
+2026-06-05T14:57:39.098934Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 69 | 买/卖单数: 0/69 | 买/卖数量: 0.00/0.08 | 平均大小: 0.001 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:57:40.091715Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 69 | 买/卖单数: 65/4 | 买/卖数量: 4.27/0.01 | 平均大小: 0.062 | 大交易: 0 | 买占比: 99.7% | 卖占比: 0.2%
+2026-06-05T14:57:40.092225Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 36 | 买/卖单数: 1/35 | 买/卖数量: 0.00/0.01 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.9% | 卖占比: 99.0%
+2026-06-05T14:57:40.092434Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 89 | 买/卖单数: 27/62 | 买/卖数量: 3.29/5.41 | 平均大小: 0.097 | 大交易: 0 | 买占比: 37.8% | 卖占比: 62.1%
+2026-06-05T14:57:41.087104Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 44 | 买/卖单数: 38/6 | 买/卖数量: 0.40/0.10 | 平均大小: 0.011 | 大交易: 0 | 买占比: 80.1% | 卖占比: 19.8%
+2026-06-05T14:57:41.087765Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 215 | 买/卖单数: 211/4 | 买/卖数量: 0.57/0.09 | 平均大小: 0.003 | 大交易: 0 | 买占比: 85.4% | 卖占比: 14.5%
+2026-06-05T14:57:41.088103Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 386 | 买/卖单数: 353/33 | 买/卖数量: 13.61/0.15 | 平均大小: 0.035 | 大交易: 0 | 买占比: 98.9% | 卖占比: 1.0%
+2026-06-05T14:57:42.085845Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 422 | 买/卖单数: 83/339 | 买/卖数量: 1.12/9.26 | 平均大小: 0.024 | 大交易: 0 | 买占比: 10.8% | 卖占比: 89.1%
+2026-06-05T14:57:42.087110Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 84 | 买/卖单数: 0/84 | 买/卖数量: 0.00/0.86 | 平均大小: 0.010 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:57:42.089068Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 367 | 买/卖单数: 57/310 | 买/卖数量: 0.01/0.13 | 平均大小: 0.000 | 大交易: 0 | 买占比: 10.7% | 卖占比: 89.2%
+2026-06-05T14:57:43.099083Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 1044 | 买/卖单数: 6/1038 | 买/卖数量: 0.16/2.26 | 平均大小: 0.002 | 大交易: 3 | 买占比: 6.6% | 卖占比: 93.3%
+2026-06-05T14:57:43.099871Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 926 | 买/卖单数: 164/762 | 买/卖数量: 21.51/134.60 | 平均大小: 0.168 | 大交易: 3 | 买占比: 13.7% | 卖占比: 86.2%
+2026-06-05T14:57:43.100126Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 141 | 买/卖单数: 43/98 | 买/卖数量: 31.53/5.37 | 平均大小: 0.261 | 大交易: 0 | 买占比: 85.4% | 卖占比: 14.5%
+2026-06-05T14:59:21.484022Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-05T14:59:21.484293Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-05T14:59:21.484510Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-05T14:59:21.967867Z  INFO binance_websocket::websockets::binance: Connected status: 101 Switching Protocols
+2026-06-05T14:59:22.480077Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 159 trades
+2026-06-05T14:59:22.480247Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 55 trades
+2026-06-05T14:59:22.480398Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 202 trades
+2026-06-05T14:59:22.480610Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 159 | 买/卖单数: 0/159 | 买/卖数量: 0.00/0.11 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:22.480823Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 55 | 买/卖单数: 0/55 | 买/卖数量: 0.00/0.87 | 平均大小: 0.015 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:22.481075Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 202 | 买/卖单数: 50/152 | 买/卖数量: 3.68/6.90 | 平均大小: 0.052 | 大交易: 0 | 买占比: 34.7% | 卖占比: 65.2%
+2026-06-05T14:59:22.481267Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 159
+2026-06-05T14:59:22.481429Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 55
+2026-06-05T14:59:22.481637Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 202
+2026-06-05T14:59:22.485181Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:22.485341Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:22.599990Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:22.600178Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:22.631563Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:22.631906Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:23.489423Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 137 trades
+2026-06-05T14:59:23.489830Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 137 | 买/卖单数: 0/137 | 买/卖数量: 0.00/0.15 | 平均大小: 0.001 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:23.490094Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 137
+2026-06-05T14:59:23.490384Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 5 trades
+2026-06-05T14:59:23.490703Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 5 | 买/卖单数: 5/0 | 买/卖数量: 1.26/0.00 | 平均大小: 0.253 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:59:23.490875Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 16 trades
+2026-06-05T14:59:23.491043Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 5
+2026-06-05T14:59:23.491277Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 16 | 买/卖单数: 9/7 | 买/卖数量: 2.24/0.12 | 平均大小: 0.147 | 大交易: 0 | 买占比: 94.7% | 卖占比: 5.2%
+2026-06-05T14:59:23.491568Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 16
+2026-06-05T14:59:23.492496Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:23.492662Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:23.493012Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:23.493214Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:23.493406Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:23.493563Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:24.482782Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 7 trades
+2026-06-05T14:59:24.482916Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 51 trades
+2026-06-05T14:59:24.483054Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 22 trades
+2026-06-05T14:59:24.483235Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 7 | 买/卖单数: 4/3 | 买/卖数量: 3.09/2.68 | 平均大小: 0.825 | 大交易: 0 | 买占比: 53.5% | 卖占比: 46.4%
+2026-06-05T14:59:24.483418Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 51 | 买/卖单数: 3/48 | 买/卖数量: 0.18/0.04 | 平均大小: 0.004 | 大交易: 0 | 买占比: 80.4% | 卖占比: 19.5%
+2026-06-05T14:59:24.483632Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 22 | 买/卖单数: 22/0 | 买/卖数量: 1.77/0.00 | 平均大小: 0.080 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:59:24.483781Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 7
+2026-06-05T14:59:24.483951Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 51
+2026-06-05T14:59:24.484305Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 22
+2026-06-05T14:59:24.486128Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:24.486302Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:24.486614Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:24.486733Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:24.486866Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:24.487082Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:25.479364Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 5 trades
+2026-06-05T14:59:25.479553Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 324 trades
+2026-06-05T14:59:25.479704Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 192 trades
+2026-06-05T14:59:25.479889Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 5 | 买/卖单数: 0/5 | 买/卖数量: 0.00/0.82 | 平均大小: 0.164 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:25.480056Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 324 | 买/卖单数: 0/324 | 买/卖数量: 0.00/0.27 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:25.480235Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 192 | 买/卖单数: 88/104 | 买/卖数量: 2.20/21.25 | 平均大小: 0.122 | 大交易: 1 | 买占比: 9.3% | 卖占比: 90.6%
+2026-06-05T14:59:25.480363Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 5
+2026-06-05T14:59:25.480504Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 324
+2026-06-05T14:59:25.480807Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 192
+2026-06-05T14:59:25.482596Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:25.482762Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:25.483052Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:25.483194Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:25.483320Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:25.483489Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:26.489461Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 58 trades
+2026-06-05T14:59:26.490376Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 4 trades
+2026-06-05T14:59:26.491101Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 58 trades
+2026-06-05T14:59:26.491720Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 58 | 买/卖单数: 2/56 | 买/卖数量: 0.64/7.14 | 平均大小: 0.134 | 大交易: 0 | 买占比: 8.2% | 卖占比: 91.7%
+2026-06-05T14:59:26.492531Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 4 | 买/卖单数: 0/4 | 买/卖数量: 0.00/0.96 | 平均大小: 0.241 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:26.493570Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 4
+2026-06-05T14:59:26.495419Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 58
+2026-06-05T14:59:26.497044Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 58 | 买/卖单数: 3/55 | 买/卖数量: 0.01/0.06 | 平均大小: 0.001 | 大交易: 0 | 买占比: 16.8% | 卖占比: 83.1%
+2026-06-05T14:59:26.497590Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:26.498008Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 58
+2026-06-05T14:59:26.498575Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:26.499184Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:26.499646Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:26.499999Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:26.500322Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:27.482373Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 177 trades
+2026-06-05T14:59:27.482521Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 27 trades
+2026-06-05T14:59:27.482672Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 77 trades
+2026-06-05T14:59:27.482832Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 177 | 买/卖单数: 1/176 | 买/卖数量: 0.00/0.36 | 平均大小: 0.002 | 大交易: 0 | 买占比: 2.0% | 卖占比: 97.9%
+2026-06-05T14:59:27.483022Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 27 | 买/卖单数: 1/26 | 买/卖数量: 0.01/3.56 | 平均大小: 0.132 | 大交易: 0 | 买占比: 0.3% | 卖占比: 99.6%
+2026-06-05T14:59:27.483243Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 77 | 买/卖单数: 5/72 | 买/卖数量: 1.99/19.95 | 平均大小: 0.285 | 大交易: 1 | 买占比: 9.1% | 卖占比: 90.8%
+2026-06-05T14:59:27.483383Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 177
+2026-06-05T14:59:27.483559Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 27
+2026-06-05T14:59:27.483835Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 77
+2026-06-05T14:59:27.485739Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:27.485912Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:27.486241Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:27.486466Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:27.486696Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:27.487120Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:28.491990Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 2 trades
+2026-06-05T14:59:28.492925Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 3 trades
+2026-06-05T14:59:28.493520Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 149 trades
+2026-06-05T14:59:28.494284Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 2 | 买/卖单数: 0/2 | 买/卖数量: 0.00/0.02 | 平均大小: 0.010 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:28.495683Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 3 | 买/卖单数: 0/3 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:28.496327Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 3
+2026-06-05T14:59:28.497870Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 2
+2026-06-05T14:59:28.498880Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 149 | 买/卖单数: 143/6 | 买/卖数量: 5.94/0.04 | 平均大小: 0.040 | 大交易: 0 | 买占比: 99.2% | 卖占比: 0.7%
+2026-06-05T14:59:28.499595Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 149
+2026-06-05T14:59:28.500153Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:28.500491Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:28.500803Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:28.501183Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:28.502279Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:28.502877Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:29.486508Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 25 trades
+2026-06-05T14:59:29.486676Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 5 trades
+2026-06-05T14:59:29.486825Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 4 trades
+2026-06-05T14:59:29.487018Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 25 | 买/卖单数: 20/5 | 买/卖数量: 3.87/3.28 | 平均大小: 0.286 | 大交易: 0 | 买占比: 54.1% | 卖占比: 45.8%
+2026-06-05T14:59:29.487304Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 5 | 买/卖单数: 0/5 | 买/卖数量: 0.00/0.01 | 平均大小: 0.002 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:29.487548Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 5
+2026-06-05T14:59:29.487680Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 25
+2026-06-05T14:59:29.488030Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 4 | 买/卖单数: 2/2 | 买/卖数量: 1.25/0.00 | 平均大小: 0.313 | 大交易: 0 | 买占比: 99.5% | 卖占比: 0.4%
+2026-06-05T14:59:29.488207Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 4
+2026-06-05T14:59:29.489735Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:29.489895Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:29.490253Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:29.490397Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:29.490541Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:29.490693Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:30.483665Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 5 trades
+2026-06-05T14:59:30.484129Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 5 | 买/卖单数: 2/3 | 买/卖数量: 1.27/0.00 | 平均大小: 0.256 | 大交易: 0 | 买占比: 99.4% | 卖占比: 0.5%
+2026-06-05T14:59:30.484335Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 1 trades
+2026-06-05T14:59:30.484592Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 1 | 买/卖单数: 1/0 | 买/卖数量: 0.09/0.00 | 平均大小: 0.094 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:59:30.484801Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 5
+2026-06-05T14:59:30.485333Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 8 trades
+2026-06-05T14:59:30.485470Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 1
+2026-06-05T14:59:30.485895Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 8 | 买/卖单数: 5/3 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 79.7% | 卖占比: 20.2%
+2026-06-05T14:59:30.486105Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 8
+2026-06-05T14:59:30.487257Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:30.487514Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:30.488272Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:30.488578Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:30.489264Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:30.489543Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:31.491906Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 3 trades
+2026-06-05T14:59:31.492425Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 10 trades
+2026-06-05T14:59:31.492859Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 15 trades
+2026-06-05T14:59:31.493320Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 3 | 买/卖单数: 1/2 | 买/卖数量: 0.08/0.01 | 平均大小: 0.035 | 大交易: 0 | 买占比: 82.2% | 卖占比: 17.7%
+2026-06-05T14:59:31.493772Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 10 | 买/卖单数: 3/7 | 买/卖数量: 0.92/1.19 | 平均大小: 0.211 | 大交易: 0 | 买占比: 43.6% | 卖占比: 56.3%
+2026-06-05T14:59:31.494337Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 15 | 买/卖单数: 1/14 | 买/卖数量: 0.00/0.01 | 平均大小: 0.000 | 大交易: 0 | 买占比: 17.3% | 卖占比: 82.6%
+2026-06-05T14:59:31.494637Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 3
+2026-06-05T14:59:31.495027Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 10
+2026-06-05T14:59:31.495923Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 15
+2026-06-05T14:59:31.497777Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:31.498105Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:31.499161Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:31.499675Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:31.500285Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:31.500524Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:32.488186Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 5 trades
+2026-06-05T14:59:32.488376Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 19 trades
+2026-06-05T14:59:32.488694Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-05T14:59:32.488961Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 5 | 买/卖单数: 5/0 | 买/卖数量: 2.25/0.00 | 平均大小: 0.450 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:59:32.489328Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 19 | 买/卖单数: 11/8 | 买/卖数量: 0.83/0.00 | 平均大小: 0.043 | 大交易: 1 | 买占比: 99.9% | 卖占比: 0.0%
+2026-06-05T14:59:32.489537Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 5
+2026-06-05T14:59:32.489755Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 19
+2026-06-05T14:59:32.492141Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:32.492421Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:32.492916Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:32.493113Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:33.482409Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-05T14:59:33.482908Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 7 trades
+2026-06-05T14:59:33.483221Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 19 trades
+2026-06-05T14:59:33.483860Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 19 | 买/卖单数: 17/2 | 买/卖数量: 3.68/0.11 | 平均大小: 0.200 | 大交易: 0 | 买占比: 97.0% | 卖占比: 2.9%
+2026-06-05T14:59:33.484947Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 19
+2026-06-05T14:59:33.485916Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 7 | 买/卖单数: 0/7 | 买/卖数量: 0.00/0.01 | 平均大小: 0.001 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:33.486184Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 7
+2026-06-05T14:59:33.487919Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:33.488213Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:33.488698Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:33.488922Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:34.492424Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 83 trades
+2026-06-05T14:59:34.492557Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 26 trades
+2026-06-05T14:59:34.492713Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 76 trades
+2026-06-05T14:59:34.492882Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 83 | 买/卖单数: 13/70 | 买/卖数量: 0.08/0.01 | 平均大小: 0.001 | 大交易: 0 | 买占比: 89.3% | 卖占比: 10.6%
+2026-06-05T14:59:34.493072Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 26 | 买/卖单数: 6/20 | 买/卖数量: 3.11/3.45 | 平均大小: 0.252 | 大交易: 0 | 买占比: 47.3% | 卖占比: 52.6%
+2026-06-05T14:59:34.493234Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 76 | 买/卖单数: 3/73 | 买/卖数量: 0.62/16.02 | 平均大小: 0.219 | 大交易: 1 | 买占比: 3.7% | 卖占比: 96.2%
+2026-06-05T14:59:34.493379Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 83
+2026-06-05T14:59:34.493517Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 26
+2026-06-05T14:59:34.493864Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 76
+2026-06-05T14:59:34.495569Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:34.495716Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:34.495989Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:34.496113Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:34.496297Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:34.496445Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:35.478479Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 3 trades
+2026-06-05T14:59:35.478707Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 9 trades
+2026-06-05T14:59:35.478905Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 1 trades
+2026-06-05T14:59:35.479098Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 3 | 买/卖单数: 3/0 | 买/卖数量: 1.27/0.00 | 平均大小: 0.426 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:59:35.479296Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 9 | 买/卖单数: 5/4 | 买/卖数量: 0.06/0.03 | 平均大小: 0.010 | 大交易: 0 | 买占比: 63.7% | 卖占比: 36.2%
+2026-06-05T14:59:35.479513Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 1 | 买/卖单数: 1/0 | 买/卖数量: 0.23/0.00 | 平均大小: 0.235 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:59:35.479679Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 3
+2026-06-05T14:59:35.479846Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 9
+2026-06-05T14:59:35.480131Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 1
+2026-06-05T14:59:35.481888Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:35.482074Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:35.482395Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:35.482554Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:35.482713Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:35.482932Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:36.482452Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 32 trades
+2026-06-05T14:59:36.482768Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 32 | 买/卖单数: 31/1 | 买/卖数量: 0.28/0.05 | 平均大小: 0.010 | 大交易: 0 | 买占比: 84.6% | 卖占比: 15.3%
+2026-06-05T14:59:36.483030Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 221 trades
+2026-06-05T14:59:36.483234Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 293 trades
+2026-06-05T14:59:36.483430Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 32
+2026-06-05T14:59:36.483879Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 221 | 买/卖单数: 218/3 | 买/卖数量: 0.49/0.02 | 平均大小: 0.002 | 大交易: 1 | 买占比: 96.1% | 卖占比: 3.8%
+2026-06-05T14:59:36.484075Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 293 | 买/卖单数: 286/7 | 买/卖数量: 9.68/1.68 | 平均大小: 0.038 | 大交易: 0 | 买占比: 85.2% | 卖占比: 14.7%
+2026-06-05T14:59:36.484393Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 221
+2026-06-05T14:59:36.484858Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 293
+2026-06-05T14:59:36.485815Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:36.486085Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:36.486572Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:36.486793Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:36.487040Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:36.487281Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:37.488309Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 31 trades
+2026-06-05T14:59:37.488507Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 3 trades
+2026-06-05T14:59:37.488659Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 7 trades
+2026-06-05T14:59:37.488912Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 31 | 买/卖单数: 7/24 | 买/卖数量: 4.23/4.14 | 平均大小: 0.270 | 大交易: 0 | 买占比: 50.5% | 卖占比: 49.4%
+2026-06-05T14:59:37.489101Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 3 | 买/卖单数: 0/3 | 买/卖数量: 0.00/3.00 | 平均大小: 1.002 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:37.489283Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 7 | 买/卖单数: 1/6 | 买/卖数量: 0.00/0.30 | 平均大小: 0.043 | 大交易: 1 | 买占比: 0.0% | 卖占比: 99.9%
+2026-06-05T14:59:37.489413Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 31
+2026-06-05T14:59:37.489555Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 3
+2026-06-05T14:59:37.489868Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 7
+2026-06-05T14:59:37.491701Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:37.491872Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:37.492149Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:37.492329Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:37.492514Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:37.492751Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:38.481317Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 18 trades
+2026-06-05T14:59:38.481475Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 1 trades
+2026-06-05T14:59:38.481610Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 7 trades
+2026-06-05T14:59:38.481833Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 18 | 买/卖单数: 11/7 | 买/卖数量: 0.08/0.06 | 平均大小: 0.007 | 大交易: 0 | 买占比: 57.3% | 卖占比: 42.6%
+2026-06-05T14:59:38.482004Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 1 | 买/卖单数: 0/1 | 买/卖数量: 0.00/0.16 | 平均大小: 0.161 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:38.482178Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 7 | 买/卖单数: 5/2 | 买/卖数量: 1.29/0.12 | 平均大小: 0.202 | 大交易: 0 | 买占比: 91.3% | 卖占比: 8.6%
+2026-06-05T14:59:38.482388Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 18
+2026-06-05T14:59:38.482517Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 1
+2026-06-05T14:59:38.482825Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 7
+2026-06-05T14:59:38.484756Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:38.484969Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:38.485443Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:38.485607Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:38.485774Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:38.486083Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:39.490422Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 5 trades
+2026-06-05T14:59:39.490586Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 3 trades
+2026-06-05T14:59:39.490813Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 4 trades
+2026-06-05T14:59:39.491029Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 5 | 买/卖单数: 3/2 | 买/卖数量: 0.02/3.32 | 平均大小: 0.669 | 大交易: 0 | 买占比: 0.6% | 卖占比: 99.3%
+2026-06-05T14:59:39.491247Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 3 | 买/卖单数: 0/3 | 买/卖数量: 0.00/0.01 | 平均大小: 0.006 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:39.491460Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 4 | 买/卖单数: 2/2 | 买/卖数量: 0.61/0.00 | 平均大小: 0.155 | 大交易: 0 | 买占比: 99.1% | 卖占比: 0.8%
+2026-06-05T14:59:39.491621Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 5
+2026-06-05T14:59:39.491810Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 3
+2026-06-05T14:59:39.492015Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 4
+2026-06-05T14:59:39.494047Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:39.494347Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:39.494745Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:39.494954Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:39.495374Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:39.495581Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:40.485895Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 21 trades
+2026-06-05T14:59:40.486380Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 15 trades
+2026-06-05T14:59:40.486586Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 113 trades
+2026-06-05T14:59:40.486867Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 113 | 买/卖单数: 113/0 | 买/卖数量: 6.63/0.00 | 平均大小: 0.058 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:59:40.487199Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 113
+2026-06-05T14:59:40.487693Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 21 | 买/卖单数: 0/21 | 买/卖数量: 0.00/0.19 | 平均大小: 0.009 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:40.487911Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 15 | 买/卖单数: 11/4 | 买/卖数量: 0.04/0.00 | 平均大小: 0.003 | 大交易: 0 | 买占比: 82.0% | 卖占比: 17.9%
+2026-06-05T14:59:40.488071Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 21
+2026-06-05T14:59:40.488254Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 15
+2026-06-05T14:59:40.489579Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:40.489751Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:40.490098Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:40.490242Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:40.490437Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:40.490642Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:41.481648Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 65 trades
+2026-06-05T14:59:41.481855Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 1 trades
+2026-06-05T14:59:41.482031Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 47 trades
+2026-06-05T14:59:41.482272Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 65 | 买/卖单数: 10/55 | 买/卖数量: 24.11/4.92 | 平均大小: 0.446 | 大交易: 1 | 买占比: 83.0% | 卖占比: 16.9%
+2026-06-05T14:59:41.482485Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 1 | 买/卖单数: 0/1 | 买/卖数量: 0.00/0.00 | 平均大小: 0.009 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:41.482730Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 47 | 买/卖单数: 44/3 | 买/卖数量: 0.02/0.01 | 平均大小: 0.000 | 大交易: 0 | 买占比: 56.3% | 卖占比: 43.6%
+2026-06-05T14:59:41.482956Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 65
+2026-06-05T14:59:41.483140Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 1
+2026-06-05T14:59:41.483390Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 47
+2026-06-05T14:59:41.485172Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:41.485345Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:41.485773Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:41.486100Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:41.486288Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:41.486566Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:42.492768Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 147 trades
+2026-06-05T14:59:42.493219Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 147 | 买/卖单数: 139/8 | 买/卖数量: 4.71/0.09 | 平均大小: 0.032 | 大交易: 0 | 买占比: 97.9% | 卖占比: 2.0%
+2026-06-05T14:59:42.493454Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 147
+2026-06-05T14:59:42.493716Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 18 trades
+2026-06-05T14:59:42.494004Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 18 | 买/卖单数: 18/0 | 买/卖数量: 0.63/0.00 | 平均大小: 0.035 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:59:42.494197Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 86 trades
+2026-06-05T14:59:42.494417Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 18
+2026-06-05T14:59:42.494790Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 86 | 买/卖单数: 81/5 | 买/卖数量: 0.15/0.13 | 平均大小: 0.003 | 大交易: 0 | 买占比: 53.9% | 卖占比: 46.0%
+2026-06-05T14:59:42.494996Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 86
+2026-06-05T14:59:42.495698Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:42.495975Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:42.496304Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:42.496576Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:42.496801Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:42.497243Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:43.488615Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 11 trades
+2026-06-05T14:59:43.488784Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 3 trades
+2026-06-05T14:59:43.488923Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 1 trades
+2026-06-05T14:59:43.489098Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 11 | 买/卖单数: 3/8 | 买/卖数量: 1.27/0.04 | 平均大小: 0.120 | 大交易: 0 | 买占比: 96.4% | 卖占比: 3.5%
+2026-06-05T14:59:43.489279Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 3 | 买/卖单数: 1/2 | 买/卖数量: 0.08/0.30 | 平均大小: 0.127 | 大交易: 1 | 买占比: 21.4% | 卖占比: 78.5%
+2026-06-05T14:59:43.489439Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 1 | 买/卖单数: 1/0 | 买/卖数量: 2.30/0.00 | 平均大小: 2.305 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:59:43.489575Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 11
+2026-06-05T14:59:43.489800Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 3
+2026-06-05T14:59:43.489976Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 1
+2026-06-05T14:59:43.490675Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:43.490847Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:43.491165Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:43.491292Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:43.491433Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:43.491587Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:44.484013Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 10 trades
+2026-06-05T14:59:44.484322Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 18 trades
+2026-06-05T14:59:44.484443Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 30 trades
+2026-06-05T14:59:44.484608Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 10 | 买/卖单数: 6/4 | 买/卖数量: 2.64/4.26 | 平均大小: 0.690 | 大交易: 0 | 买占比: 38.2% | 卖占比: 61.7%
+2026-06-05T14:59:44.484767Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 18 | 买/卖单数: 10/8 | 买/卖数量: 5.40/1.01 | 平均大小: 0.356 | 大交易: 0 | 买占比: 84.1% | 卖占比: 15.8%
+2026-06-05T14:59:44.484936Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 30 | 买/卖单数: 26/4 | 买/卖数量: 0.00/0.03 | 平均大小: 0.001 | 大交易: 0 | 买占比: 15.3% | 卖占比: 84.6%
+2026-06-05T14:59:44.485068Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 10
+2026-06-05T14:59:44.485219Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 18
+2026-06-05T14:59:44.485633Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 30
+2026-06-05T14:59:44.488011Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:44.488228Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:44.488674Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:44.489088Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:44.489479Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:44.489787Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:45.481412Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 38 trades
+2026-06-05T14:59:45.481683Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 21 trades
+2026-06-05T14:59:45.481817Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 12 trades
+2026-06-05T14:59:45.482106Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 38 | 买/卖单数: 0/38 | 买/卖数量: 0.00/5.32 | 平均大小: 0.140 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:45.482310Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 21 | 买/卖单数: 3/18 | 买/卖数量: 0.95/1.73 | 平均大小: 0.127 | 大交易: 0 | 买占比: 35.5% | 卖占比: 64.4%
+2026-06-05T14:59:45.482553Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 12 | 买/卖单数: 7/5 | 买/卖数量: 0.05/0.00 | 平均大小: 0.004 | 大交易: 0 | 买占比: 99.0% | 卖占比: 0.9%
+2026-06-05T14:59:45.482683Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 38
+2026-06-05T14:59:45.482816Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 21
+2026-06-05T14:59:45.482990Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 12
+2026-06-05T14:59:45.484846Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:45.484998Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:45.485263Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:45.485397Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:45.485527Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:45.485668Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:46.489501Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 26 trades
+2026-06-05T14:59:46.489709Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 57 trades
+2026-06-05T14:59:46.490034Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 71 trades
+2026-06-05T14:59:46.490230Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 26 | 买/卖单数: 3/23 | 买/卖数量: 1.27/1.59 | 平均大小: 0.110 | 大交易: 0 | 买占比: 44.5% | 卖占比: 55.4%
+2026-06-05T14:59:46.490485Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 57 | 买/卖单数: 1/56 | 买/卖数量: 0.20/0.60 | 平均大小: 0.014 | 大交易: 0 | 买占比: 25.8% | 卖占比: 74.1%
+2026-06-05T14:59:46.490730Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 71 | 买/卖单数: 0/71 | 买/卖数量: 0.00/0.06 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:46.490947Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 26
+2026-06-05T14:59:46.491204Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 57
+2026-06-05T14:59:46.491439Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 71
+2026-06-05T14:59:46.493117Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:46.493272Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:46.493571Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:46.493714Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:46.493866Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:46.494026Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:47.485934Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 233 trades
+2026-06-05T14:59:47.486101Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 274 trades
+2026-06-05T14:59:47.486273Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 426 trades
+2026-06-05T14:59:47.486439Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 233 | 买/卖单数: 1/232 | 买/卖数量: 0.61/25.68 | 平均大小: 0.112 | 大交易: 0 | 买占比: 2.3% | 卖占比: 97.6%
+2026-06-05T14:59:47.486630Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 274 | 买/卖单数: 0/274 | 买/卖数量: 0.00/2.54 | 平均大小: 0.009 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:47.486860Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 426 | 买/卖单数: 2/424 | 买/卖数量: 0.01/1.03 | 平均大小: 0.002 | 大交易: 1 | 买占比: 1.5% | 卖占比: 98.4%
+2026-06-05T14:59:47.487055Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 233
+2026-06-05T14:59:47.487291Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 274
+2026-06-05T14:59:47.487611Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 426
+2026-06-05T14:59:47.489409Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:47.489604Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:47.489942Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:47.490093Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:47.490233Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:47.490377Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:48.483049Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 10 trades
+2026-06-05T14:59:48.483488Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 15 trades
+2026-06-05T14:59:48.483771Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 17 trades
+2026-06-05T14:59:48.484043Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 10 | 买/卖单数: 5/5 | 买/卖数量: 1.31/0.01 | 平均大小: 0.133 | 大交易: 0 | 买占比: 98.6% | 卖占比: 1.3%
+2026-06-05T14:59:48.484326Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 15 | 买/卖单数: 0/15 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:48.484646Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 17 | 买/卖单数: 0/17 | 买/卖数量: 0.00/0.21 | 平均大小: 0.012 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:48.484895Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 10
+2026-06-05T14:59:48.485296Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 15
+2026-06-05T14:59:48.485645Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 17
+2026-06-05T14:59:48.487860Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:48.488082Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:48.488362Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:48.488597Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:48.488880Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:48.489237Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:49.482117Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 8 trades
+2026-06-05T14:59:49.482271Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 45 trades
+2026-06-05T14:59:49.482464Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 39 trades
+2026-06-05T14:59:49.482675Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 8 | 买/卖单数: 0/8 | 买/卖数量: 0.00/0.19 | 平均大小: 0.024 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:49.482842Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 45 | 买/卖单数: 2/43 | 买/卖数量: 0.64/16.15 | 平均大小: 0.373 | 大交易: 0 | 买占比: 3.8% | 卖占比: 96.1%
+2026-06-05T14:59:49.483010Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 39 | 买/卖单数: 5/34 | 买/卖数量: 3.05/0.31 | 平均大小: 0.086 | 大交易: 0 | 买占比: 90.6% | 卖占比: 9.3%
+2026-06-05T14:59:49.483141Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 8
+2026-06-05T14:59:49.483345Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 45
+2026-06-05T14:59:49.483596Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 39
+2026-06-05T14:59:49.485310Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:49.485463Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:49.485743Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:49.485886Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:49.486027Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:49.486193Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:50.485500Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 19 trades
+2026-06-05T14:59:50.485776Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 7 trades
+2026-06-05T14:59:50.485984Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 75 trades
+2026-06-05T14:59:50.486158Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 19 | 买/卖单数: 18/1 | 买/卖数量: 4.26/0.01 | 平均大小: 0.225 | 大交易: 0 | 买占比: 99.5% | 卖占比: 0.4%
+2026-06-05T14:59:50.486378Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 7 | 买/卖单数: 3/4 | 买/卖数量: 0.00/0.01 | 平均大小: 0.003 | 大交易: 0 | 买占比: 34.5% | 卖占比: 65.4%
+2026-06-05T14:59:50.486528Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 75 | 买/卖单数: 74/1 | 买/卖数量: 0.67/0.01 | 平均大小: 0.009 | 大交易: 0 | 买占比: 97.2% | 卖占比: 2.7%
+2026-06-05T14:59:50.486705Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 19
+2026-06-05T14:59:50.486881Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 7
+2026-06-05T14:59:50.487174Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 75
+2026-06-05T14:59:50.488938Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:50.489094Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:50.489462Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:50.489599Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:50.489740Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:50.489903Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:51.482449Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 243 trades
+2026-06-05T14:59:51.482624Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 57 trades
+2026-06-05T14:59:51.482767Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 94 trades
+2026-06-05T14:59:51.483041Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 243 | 买/卖单数: 2/241 | 买/卖数量: 0.00/0.33 | 平均大小: 0.001 | 大交易: 0 | 买占比: 2.4% | 卖占比: 97.5%
+2026-06-05T14:59:51.483223Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 57 | 买/卖单数: 20/37 | 买/卖数量: 0.18/4.44 | 平均大小: 0.081 | 大交易: 0 | 买占比: 3.9% | 卖占比: 96.0%
+2026-06-05T14:59:51.483382Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 94 | 买/卖单数: 5/89 | 买/卖数量: 2.18/3.74 | 平均大小: 0.063 | 大交易: 0 | 买占比: 36.8% | 卖占比: 63.1%
+2026-06-05T14:59:51.483541Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 243
+2026-06-05T14:59:51.483690Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 57
+2026-06-05T14:59:51.484003Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 94
+2026-06-05T14:59:51.485664Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:51.485823Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:51.486093Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:51.486239Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:51.486363Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:51.486519Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:52.477891Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 173 trades
+2026-06-05T14:59:52.478109Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 1 trades
+2026-06-05T14:59:52.478282Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 16 trades
+2026-06-05T14:59:52.478939Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 173 | 买/卖单数: 172/1 | 买/卖数量: 10.41/2.47 | 平均大小: 0.074 | 大交易: 0 | 买占比: 80.7% | 卖占比: 19.2%
+2026-06-05T14:59:52.479217Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 1 | 买/卖单数: 0/1 | 买/卖数量: 0.00/0.21 | 平均大小: 0.217 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-05T14:59:52.479572Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 16 | 买/卖单数: 12/4 | 买/卖数量: 0.02/0.01 | 平均大小: 0.001 | 大交易: 0 | 买占比: 66.1% | 卖占比: 33.8%
+2026-06-05T14:59:52.479843Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 16
+2026-06-05T14:59:52.480678Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 1
+2026-06-05T14:59:52.481215Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 173
+2026-06-05T14:59:52.482373Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:52.482572Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:52.482955Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:52.483114Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:52.483252Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:52.483454Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:53.481442Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 88 trades
+2026-06-05T14:59:53.482055Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 479 trades
+2026-06-05T14:59:53.482227Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 263 trades
+2026-06-05T14:59:53.482502Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 88 | 买/卖单数: 88/0 | 买/卖数量: 0.86/0.00 | 平均大小: 0.009 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:59:53.482823Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 479 | 买/卖单数: 473/6 | 买/卖数量: 0.58/0.01 | 平均大小: 0.001 | 大交易: 1 | 买占比: 97.8% | 卖占比: 2.1%
+2026-06-05T14:59:53.483093Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 263 | 买/卖单数: 260/3 | 买/卖数量: 53.73/1.45 | 平均大小: 0.209 | 大交易: 2 | 买占比: 97.3% | 卖占比: 2.6%
+2026-06-05T14:59:53.483304Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 88
+2026-06-05T14:59:53.483505Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 479
+2026-06-05T14:59:53.483949Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 263
+2026-06-05T14:59:53.485456Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:53.485629Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:53.485916Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:53.486037Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:53.486178Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:53.486350Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:54.489572Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 86 trades
+2026-06-05T14:59:54.489747Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 139 trades
+2026-06-05T14:59:54.489900Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 444 trades
+2026-06-05T14:59:54.490099Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 86 | 买/卖单数: 83/3 | 买/卖数量: 5.30/3.71 | 平均大小: 0.104 | 大交易: 0 | 买占比: 58.8% | 卖占比: 41.1%
+2026-06-05T14:59:54.490252Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 139 | 买/卖单数: 139/0 | 买/卖数量: 7.16/0.00 | 平均大小: 0.051 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-05T14:59:54.490422Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 444 | 买/卖单数: 440/4 | 买/卖数量: 1.88/0.07 | 平均大小: 0.004 | 大交易: 3 | 买占比: 96.0% | 卖占比: 3.9%
+2026-06-05T14:59:54.490545Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 86
+2026-06-05T14:59:54.490772Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 139
+2026-06-05T14:59:54.491028Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 444
+2026-06-05T14:59:54.492792Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:54.492947Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:54.493354Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:54.493508Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:54.493642Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:54.493785Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:55.481290Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 82 trades
+2026-06-05T14:59:55.481619Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 4 trades
+2026-06-05T14:59:55.481842Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 18 trades
+2026-06-05T14:59:55.482046Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 82 | 买/卖单数: 73/9 | 买/卖数量: 3.13/0.11 | 平均大小: 0.039 | 大交易: 10 | 买占比: 96.3% | 卖占比: 3.6%
+2026-06-05T14:59:55.482341Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 4 | 买/卖单数: 2/2 | 买/卖数量: 0.02/0.01 | 平均大小: 0.009 | 大交易: 0 | 买占比: 54.0% | 卖占比: 45.9%
+2026-06-05T14:59:55.482555Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 18 | 买/卖单数: 1/17 | 买/卖数量: 0.00/6.29 | 平均大小: 0.350 | 大交易: 0 | 买占比: 0.0% | 卖占比: 99.9%
+2026-06-05T14:59:55.482768Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 82
+2026-06-05T14:59:55.483253Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 4
+2026-06-05T14:59:55.483773Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 18
+2026-06-05T14:59:55.485036Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:55.485212Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:55.485522Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:55.485646Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:55.485871Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-05T14:59:55.486047Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:56.492443Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 26 trades
+2026-06-05T14:59:56.492644Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 55 trades
+2026-06-05T14:59:56.492824Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-05T14:59:56.493003Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 26 | 买/卖单数: 13/13 | 买/卖数量: 0.18/0.01 | 平均大小: 0.007 | 大交易: 1 | 买占比: 92.9% | 卖占比: 7.0%
+2026-06-05T14:59:56.493194Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 55 | 买/卖单数: 51/4 | 买/卖数量: 2.49/2.04 | 平均大小: 0.082 | 大交易: 0 | 买占比: 54.8% | 卖占比: 45.1%
+2026-06-05T14:59:56.493337Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 26
+2026-06-05T14:59:56.493485Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 55
+2026-06-05T14:59:56.495481Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:56.495631Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-05T14:59:56.495906Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-05T14:59:56.496037Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:14.278880Z  INFO binance_websocket: Listening on http://0.0.0.0:3000
+2026-06-07T06:38:14.280782Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-07T06:38:14.281530Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-07T06:38:14.282036Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-07T06:38:14.905300Z  INFO binance_websocket::websockets::binance: Connected status: 101 Switching Protocols
+2026-06-07T06:38:15.291792Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 42 trades
+2026-06-07T06:38:15.291912Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 2 trades
+2026-06-07T06:38:15.292067Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 5 trades
+2026-06-07T06:38:15.292283Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 42 | 买/卖单数: 40/2 | 买/卖数量: 9.28/0.04 | 平均大小: 0.222 | 大交易: 0 | 买占比: 99.5% | 卖占比: 0.4%
+2026-06-07T06:38:15.292639Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 2 | 买/卖单数: 1/1 | 买/卖数量: 0.00/0.00 | 平均大小: 0.001 | 大交易: 0 | 买占比: 5.8% | 卖占比: 94.1%
+2026-06-07T06:38:15.292869Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 5 | 买/卖单数: 5/0 | 买/卖数量: 0.08/0.00 | 平均大小: 0.017 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-07T06:38:15.293058Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 42
+2026-06-07T06:38:15.293230Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 2
+2026-06-07T06:38:15.293575Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 5
+2026-06-07T06:38:15.310465Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:15.310723Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:15.437623Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:15.437845Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:15.440803Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:15.440981Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:16.290449Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 2 trades
+2026-06-07T06:38:16.290606Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 6 trades
+2026-06-07T06:38:16.290765Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 403 trades
+2026-06-07T06:38:16.290939Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 2 | 买/卖单数: 0/2 | 买/卖数量: 0.00/0.09 | 平均大小: 0.047 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-07T06:38:16.291145Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 6 | 买/卖单数: 1/5 | 买/卖数量: 0.02/0.33 | 平均大小: 0.059 | 大交易: 0 | 买占比: 6.1% | 卖占比: 93.8%
+2026-06-07T06:38:16.291333Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 403 | 买/卖单数: 226/177 | 买/卖数量: 5.41/0.48 | 平均大小: 0.014 | 大交易: 11 | 买占比: 91.7% | 卖占比: 8.2%
+2026-06-07T06:38:16.291489Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 2
+2026-06-07T06:38:16.291639Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 6
+2026-06-07T06:38:16.291883Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 403
+2026-06-07T06:38:16.302474Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:16.302685Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:16.303108Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:16.303290Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:16.303781Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:16.303970Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:17.284009Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 2 trades
+2026-06-07T06:38:17.284627Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 2 | 买/卖单数: 0/2 | 买/卖数量: 0.00/8.75 | 平均大小: 4.377 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-07T06:38:17.284852Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 2
+2026-06-07T06:38:17.285507Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 34 trades
+2026-06-07T06:38:17.286037Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 34 | 买/卖单数: 25/9 | 买/卖数量: 0.30/0.19 | 平均大小: 0.014 | 大交易: 1 | 买占比: 60.7% | 卖占比: 39.2%
+2026-06-07T06:38:17.286369Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 34
+2026-06-07T06:38:17.286852Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 162 trades
+2026-06-07T06:38:17.287307Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 162 | 买/卖单数: 162/0 | 买/卖数量: 28.44/0.00 | 平均大小: 0.175 | 大交易: 1 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-07T06:38:17.287635Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:17.287819Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 162
+2026-06-07T06:38:17.287999Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:17.288240Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:17.288417Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:17.288645Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:17.288828Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:18.293074Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 151 trades
+2026-06-07T06:38:18.293266Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 255 trades
+2026-06-07T06:38:18.293404Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 1 trades
+2026-06-07T06:38:18.293599Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 151 | 买/卖单数: 146/5 | 买/卖数量: 0.32/0.00 | 平均大小: 0.002 | 大交易: 1 | 买占比: 99.1% | 卖占比: 0.8%
+2026-06-07T06:38:18.293780Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 255 | 买/卖单数: 254/1 | 买/卖数量: 5.60/0.00 | 平均大小: 0.022 | 大交易: 0 | 买占比: 99.8% | 卖占比: 0.1%
+2026-06-07T06:38:18.294016Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 1 | 买/卖单数: 0/1 | 买/卖数量: 0.00/1.24 | 平均大小: 1.244 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-07T06:38:18.294173Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 151
+2026-06-07T06:38:18.294337Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 255
+2026-06-07T06:38:18.294544Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 1
+2026-06-07T06:38:18.296480Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:18.296635Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:18.297023Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:18.297243Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:18.297381Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:18.297551Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:19.292897Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 9 trades
+2026-06-07T06:38:19.293053Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 304 trades
+2026-06-07T06:38:19.293186Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 221 trades
+2026-06-07T06:38:19.293387Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 9 | 买/卖单数: 0/9 | 买/卖数量: 0.00/0.08 | 平均大小: 0.009 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-07T06:38:19.293584Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 304 | 买/卖单数: 1/303 | 买/卖数量: 0.30/7.85 | 平均大小: 0.026 | 大交易: 0 | 买占比: 3.7% | 卖占比: 96.2%
+2026-06-07T06:38:19.293780Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 221 | 买/卖单数: 11/210 | 买/卖数量: 0.55/0.19 | 平均大小: 0.003 | 大交易: 2 | 买占比: 73.6% | 卖占比: 26.3%
+2026-06-07T06:38:19.293957Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 9
+2026-06-07T06:38:19.294103Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 304
+2026-06-07T06:38:19.294405Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 221
+2026-06-07T06:38:19.296423Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:19.296609Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:19.296907Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:19.297049Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:19.297201Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:19.297410Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:20.290642Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 4 trades
+2026-06-07T06:38:20.291465Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 4 | 买/卖单数: 0/4 | 买/卖数量: 0.00/0.04 | 平均大小: 0.011 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-07T06:38:20.291889Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 8 trades
+2026-06-07T06:38:20.292572Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 8 | 买/卖单数: 2/6 | 买/卖数量: 0.30/0.00 | 平均大小: 0.038 | 大交易: 1 | 买占比: 98.1% | 卖占比: 1.8%
+2026-06-07T06:38:20.292990Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 4
+2026-06-07T06:38:20.294293Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-07T06:38:20.294671Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 8
+2026-06-07T06:38:20.296367Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:20.296746Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:20.297274Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:20.297551Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:21.282559Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 206 trades
+2026-06-07T06:38:21.283262Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 243 trades
+2026-06-07T06:38:21.283686Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 19 trades
+2026-06-07T06:38:21.284301Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 206 | 买/卖单数: 200/6 | 买/卖数量: 0.34/0.02 | 平均大小: 0.001 | 大交易: 1 | 买占比: 91.9% | 卖占比: 8.0%
+2026-06-07T06:38:21.285332Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 243 | 买/卖单数: 240/3 | 买/卖数量: 5.48/0.03 | 平均大小: 0.022 | 大交易: 0 | 买占比: 99.3% | 卖占比: 0.6%
+2026-06-07T06:38:21.286398Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 243
+2026-06-07T06:38:21.287827Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 206
+2026-06-07T06:38:21.290175Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 19 | 买/卖单数: 15/4 | 买/卖数量: 0.15/0.09 | 平均大小: 0.012 | 大交易: 0 | 买占比: 62.1% | 卖占比: 37.8%
+2026-06-07T06:38:21.290574Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:21.290965Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:21.291305Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 19
+2026-06-07T06:38:21.291645Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:21.292413Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:21.292852Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:21.293169Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:22.291230Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 203 trades
+2026-06-07T06:38:22.292149Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 203 | 买/卖单数: 104/99 | 买/卖数量: 1.28/16.48 | 平均大小: 0.087 | 大交易: 0 | 买占比: 7.2% | 卖占比: 92.7%
+2026-06-07T06:38:22.292852Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 203
+2026-06-07T06:38:22.293876Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 4 trades
+2026-06-07T06:38:22.294350Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 4 | 买/卖单数: 2/2 | 买/卖数量: 0.30/0.01 | 平均大小: 0.079 | 大交易: 1 | 买占比: 94.5% | 卖占比: 5.4%
+2026-06-07T06:38:22.294884Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 4
+2026-06-07T06:38:22.295760Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-07T06:38:22.296256Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:22.296724Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:22.297352Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:22.297707Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:23.291029Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 34 trades
+2026-06-07T06:38:23.291661Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 34 | 买/卖单数: 0/34 | 买/卖数量: 0.00/0.18 | 平均大小: 0.005 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-07T06:38:23.291894Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 7 trades
+2026-06-07T06:38:23.292122Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 4 trades
+2026-06-07T06:38:23.292427Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 4 | 买/卖单数: 2/2 | 买/卖数量: 0.04/0.05 | 平均大小: 0.026 | 大交易: 0 | 买占比: 44.3% | 卖占比: 55.6%
+2026-06-07T06:38:23.292738Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 7 | 买/卖单数: 3/4 | 买/卖数量: 0.30/0.00 | 平均大小: 0.043 | 大交易: 1 | 买占比: 99.1% | 卖占比: 0.8%
+2026-06-07T06:38:23.292903Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 34
+2026-06-07T06:38:23.293071Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 4
+2026-06-07T06:38:23.293675Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 7
+2026-06-07T06:38:23.293829Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:23.294074Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:23.294231Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:23.294425Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:23.294899Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:23.295116Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:24.283920Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 1 trades
+2026-06-07T06:38:24.284311Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 1 | 买/卖单数: 1/0 | 买/卖数量: 0.30/0.00 | 平均大小: 0.300 | 大交易: 1 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-07T06:38:24.284537Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 2 trades
+2026-06-07T06:38:24.284783Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-07T06:38:24.284966Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 1
+2026-06-07T06:38:24.285181Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 2 | 买/卖单数: 1/1 | 买/卖数量: 1.38/1.00 | 平均大小: 1.192 | 大交易: 0 | 买占比: 58.0% | 卖占比: 41.9%
+2026-06-07T06:38:24.285494Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 2
+2026-06-07T06:38:24.287302Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:24.287548Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:24.288484Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:24.288740Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:25.291779Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 1 trades
+2026-06-07T06:38:25.293180Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 144 trades
+2026-06-07T06:38:25.294455Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 144 | 买/卖单数: 140/4 | 买/卖数量: 8.14/0.02 | 平均大小: 0.056 | 大交易: 8 | 买占比: 99.6% | 卖占比: 0.3%
+2026-06-07T06:38:25.295444Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 144
+2026-06-07T06:38:25.296038Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 35 trades
+2026-06-07T06:38:25.296834Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 1 | 买/卖单数: 0/1 | 买/卖数量: 0.00/1.20 | 平均大小: 1.208 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-07T06:38:25.297592Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 1
+2026-06-07T06:38:25.298543Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 35 | 买/卖单数: 35/0 | 买/卖数量: 0.47/0.00 | 平均大小: 0.013 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-07T06:38:25.298963Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:25.299237Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 35
+2026-06-07T06:38:25.299635Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:25.300263Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:25.300603Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:25.301016Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:25.301265Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:26.288073Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 13 trades
+2026-06-07T06:38:26.288692Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 2 trades
+2026-06-07T06:38:26.289121Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 34 trades
+2026-06-07T06:38:26.290780Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 2 | 买/卖单数: 0/2 | 买/卖数量: 0.00/0.02 | 平均大小: 0.011 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-07T06:38:26.290628Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 13 | 买/卖单数: 11/2 | 买/卖数量: 3.06/1.00 | 平均大小: 0.312 | 大交易: 0 | 买占比: 75.4% | 卖占比: 24.5%
+2026-06-07T06:38:26.291415Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 2
+2026-06-07T06:38:26.292610Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 34 | 买/卖单数: 31/3 | 买/卖数量: 0.30/0.00 | 平均大小: 0.009 | 大交易: 1 | 买占比: 97.5% | 卖占比: 2.4%
+2026-06-07T06:38:26.292957Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 13
+2026-06-07T06:38:26.294510Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 34
+2026-06-07T06:38:26.295414Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:26.295754Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:26.296099Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:26.296344Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:26.296662Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:26.296858Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:27.283689Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 289 trades
+2026-06-07T06:38:27.283875Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-07T06:38:27.284250Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 360 trades
+2026-06-07T06:38:27.284608Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 360 | 买/卖单数: 58/302 | 买/卖数量: 0.20/5.21 | 平均大小: 0.015 | 大交易: 0 | 买占比: 3.7% | 卖占比: 96.2%
+2026-06-07T06:38:27.284806Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 289 | 买/卖单数: 163/126 | 买/卖数量: 0.35/1.27 | 平均大小: 0.005 | 大交易: 2 | 买占比: 21.9% | 卖占比: 78.0%
+2026-06-07T06:38:27.285003Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 360
+2026-06-07T06:38:27.285156Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 289
+2026-06-07T06:38:27.287284Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:27.287485Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:27.287797Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:27.287960Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:28.280216Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 104 trades
+2026-06-07T06:38:28.280428Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 71 trades
+2026-06-07T06:38:28.280632Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-07T06:38:28.280860Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 104 | 买/卖单数: 4/100 | 买/卖数量: 0.31/0.06 | 平均大小: 0.003 | 大交易: 1 | 买占比: 83.4% | 卖占比: 16.5%
+2026-06-07T06:38:28.281141Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 71 | 买/卖单数: 1/70 | 买/卖数量: 0.17/1.02 | 平均大小: 0.016 | 大交易: 0 | 买占比: 14.7% | 卖占比: 85.2%
+2026-06-07T06:38:28.281304Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 104
+2026-06-07T06:38:28.281530Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 71
+2026-06-07T06:38:28.283636Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:28.283800Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:28.284088Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:28.284234Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:29.290627Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 145 trades
+2026-06-07T06:38:29.290837Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 85 trades
+2026-06-07T06:38:29.291023Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 11 trades
+2026-06-07T06:38:29.291304Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 145 | 买/卖单数: 145/0 | 买/卖数量: 4.60/0.00 | 平均大小: 0.031 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-07T06:38:29.291573Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 85 | 买/卖单数: 82/3 | 买/卖数量: 0.30/0.00 | 平均大小: 0.003 | 大交易: 1 | 买占比: 98.9% | 卖占比: 1.0%
+2026-06-07T06:38:29.292579Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 11 | 买/卖单数: 0/11 | 买/卖数量: 0.00/0.14 | 平均大小: 0.013 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-07T06:38:29.295489Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 11
+2026-06-07T06:38:29.296072Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 85
+2026-06-07T06:38:29.296514Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 145
+2026-06-07T06:38:29.298132Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:29.298388Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:29.298732Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:29.298882Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:29.299053Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:29.299189Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:30.286757Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 194 trades
+2026-06-07T06:38:30.286924Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 2 trades
+2026-06-07T06:38:30.287136Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-07T06:38:30.287355Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 194 | 买/卖单数: 4/190 | 买/卖数量: 0.30/0.60 | 平均大小: 0.004 | 大交易: 2 | 买占比: 33.3% | 卖占比: 66.6%
+2026-06-07T06:38:30.287555Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 2 | 买/卖单数: 0/2 | 买/卖数量: 0.00/0.69 | 平均大小: 0.346 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-07T06:38:30.287714Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 194
+2026-06-07T06:38:30.287861Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 2
+2026-06-07T06:38:30.289812Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:30.289971Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:30.290258Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:30.290404Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:31.282622Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 1 trades
+2026-06-07T06:38:31.284053Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 1 | 买/卖单数: 0/1 | 买/卖数量: 0.00/0.05 | 平均大小: 0.052 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-07T06:38:31.284574Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 59 trades
+2026-06-07T06:38:31.285430Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 2 trades
+2026-06-07T06:38:31.285959Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 1
+2026-06-07T06:38:31.287647Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 59 | 买/卖单数: 4/55 | 买/卖数量: 0.31/0.04 | 平均大小: 0.006 | 大交易: 1 | 买占比: 86.6% | 卖占比: 13.3%
+2026-06-07T06:38:31.288103Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 2 | 买/卖单数: 0/2 | 买/卖数量: 0.00/0.03 | 平均大小: 0.016 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-07T06:38:31.288777Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 59
+2026-06-07T06:38:31.289643Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 2
+2026-06-07T06:38:31.290295Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:31.290465Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:31.290633Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:31.290803Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:31.291012Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:31.291249Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:32.291298Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 30 trades
+2026-06-07T06:38:32.291748Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 30 | 买/卖单数: 22/8 | 买/卖数量: 0.30/0.05 | 平均大小: 0.011 | 大交易: 1 | 买占比: 84.3% | 卖占比: 15.6%
+2026-06-07T06:38:32.291997Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 28 trades
+2026-06-07T06:38:32.292261Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-07T06:38:32.292615Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 30
+2026-06-07T06:38:32.292948Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 28 | 买/卖单数: 7/21 | 买/卖数量: 0.37/0.44 | 平均大小: 0.029 | 大交易: 0 | 买占比: 45.5% | 卖占比: 54.4%
+2026-06-07T06:38:32.293203Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 28
+2026-06-07T06:38:32.295294Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:32.295558Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:32.295984Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:32.296167Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:33.287687Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 81 trades
+2026-06-07T06:38:33.287881Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for bnbusdt@trade: 8 trades
+2026-06-07T06:38:33.288028Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 73 trades
+2026-06-07T06:38:33.288215Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 81 | 买/卖单数: 1/80 | 买/卖数量: 0.23/1.85 | 平均大小: 0.025 | 大交易: 0 | 买占比: 11.2% | 卖占比: 88.7%
+2026-06-07T06:38:33.288417Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 8 | 买/卖单数: 0/8 | 买/卖数量: 0.00/0.38 | 平均大小: 0.048 | 大交易: 0 | 买占比: 0.0% | 卖占比: 100.0%
+2026-06-07T06:38:33.288676Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 73 | 买/卖单数: 2/71 | 买/卖数量: 0.30/0.02 | 平均大小: 0.004 | 大交易: 1 | 买占比: 93.1% | 卖占比: 6.8%
+2026-06-07T06:38:33.288898Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 81
+2026-06-07T06:38:33.289039Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: bnbusdt@trade, trade_count: 8
+2026-06-07T06:38:33.289273Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 73
+2026-06-07T06:38:33.291241Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:33.291428Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:33.292034Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:33.292192Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:33.292434Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for bnbusdt@trade
+2026-06-07T06:38:33.292729Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:34.285639Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for btcusdt@trade: 131 trades
+2026-06-07T06:38:34.285775Z  INFO binance_websocket::works::binance_worker: Inserting trade stats for ethusdt@trade: 2 trades
+2026-06-07T06:38:34.285942Z  INFO binance_websocket::works::binance_worker: bnbusdt@trade | 每秒交易次数: 0 | 买/卖单数: 0/0 | 买/卖数量: 0.00/0.00 | 平均大小: 0.000 | 大交易: 0 | 买占比: 0.0% | 卖占比: 0.0%
+2026-06-07T06:38:34.286175Z  INFO binance_websocket::works::binance_worker: btcusdt@trade | 每秒交易次数: 131 | 买/卖单数: 120/11 | 买/卖数量: 0.33/0.16 | 平均大小: 0.003 | 大交易: 1 | 买占比: 66.8% | 卖占比: 33.1%
+2026-06-07T06:38:34.286357Z  INFO binance_websocket::works::binance_worker: ethusdt@trade | 每秒交易次数: 2 | 买/卖单数: 2/0 | 买/卖数量: 0.94/0.00 | 平均大小: 0.472 | 大交易: 0 | 买占比: 100.0% | 卖占比: 0.0%
+2026-06-07T06:38:34.286509Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: btcusdt@trade, trade_count: 131
+2026-06-07T06:38:34.286663Z  INFO binance_websocket::repo::insert_trade_stats: Attempting to insert trade stats for symbol: ethusdt@trade, trade_count: 2
+2026-06-07T06:38:34.288701Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:34.288863Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for ethusdt@trade
+2026-06-07T06:38:34.289144Z  INFO binance_websocket::repo::insert_trade_stats: Successfully inserted trade stats for btcusdt@trade
+2026-06-07T06:38:34.289319Z  INFO binance_websocket::works::binance_worker: Successfully inserted trade stats for btcusdt@trade

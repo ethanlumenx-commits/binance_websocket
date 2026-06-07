@@ -1,5 +1,7 @@
 use tracing::error;
 use std::fmt::Debug;
+use sqlx::PgPool;
+
 
 use crate::config::AppConfig;
 use crate::models::trade::TradeDataExtractor;
@@ -11,6 +13,7 @@ pub async fn aggregator_worker_with_indicators<T>(
     mut main_rx: tokio::sync::mpsc::Receiver<T>,
     symbols: &[String],
     config: &AppConfig,
+    db_pool: &PgPool,
 ) where T: Debug + Send + Sync + TradeDataExtractor + 'static {
     let mut works_hash = std::collections::HashMap::new();
     
@@ -19,9 +22,11 @@ pub async fn aggregator_worker_with_indicators<T>(
         let (work_tx, work_rx) = tokio::sync::mpsc::channel(config.websocket.channel_capacity);
         
         let symbol_clone = symbol.clone();
+
+        let db_pool_clone = db_pool.clone();
         
         tokio::spawn(async move {
-            run_binance_worker(work_rx, symbol_clone).await;
+            run_binance_worker(work_rx, symbol_clone, &db_pool_clone).await;
         });
         
         works_hash.insert(symbol.clone(), work_tx);
